@@ -69,10 +69,16 @@ figcaption, table caption
     text-align: left !important
 
 // BACKGROUNDS color
+.bg-primario-p5
+  background-color: $color-primario-p5
+.bg-secundario-s5
+  background-color: $color-secundario-s5
 .bg-terciario-t5
   background-color: $color-terciario-t5
-// .bg-primario-p10
-//   background-color: $color-primario-p10
+.bg-contenido-a5
+  background-color: $color-acento-contenido-a5
+.bg-primario-p10
+  background-color: $color-primario-p10
 // .bg-secundario-s20
 //   background-color: $color-secundario-s10
 // .bg-terciario-t5
@@ -83,21 +89,23 @@ figcaption, table caption
 //   background-color: $color-terciario-t20
 .bg-contenido-a20
   background-color: $color-acento-contenido-a20
-.bg-contenido-a5
-  background-color: $color-acento-contenido-a5
 // .bg-gris
 //   background-color: $color-gris
 // .bg-gris-sistema
 //   background-color: $color-sistema-h
+.bg-slider
+  background-image: url('../assets/curso/common/bg-slider.png')
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+  border-radius: 20px
 
 
 // WIDTH
-// .w-145
-//   max-width: 145px
-//   width: 100%
-//   margin: 0 auto
-//   @media (min-width: 992px)
-//     margin-left: 0
+.imgw-105
+  width: 105px
+  margin: 0 auto
+
 // .w-110
 //   max-width: 110px
 //   width: 100%
@@ -114,18 +122,20 @@ figcaption, table caption
   border-radius: 10px
   padding: 20px 30px
   margin-top: -60px
+  &--secundario
+    background: $color-secundario-s10
 
 .slyder-a
   .slyder-a__btn--atrs, .slyder-a__btn--sigt
     background-color: $color-acento-botones
     background-image: url('../assets/curso/common/white-arrow.svg')
-    color: $white
   .slyder-a__bullets__item
     background-color: $color-acento-botones
   &__bullets__item
     margin: 0 4px
+    border-color: $color-acento-botones
     @media (min-width: $bp-min-sm)
-      margin: 0 10px
+      margin: 0 8px
 
 //CLASES TITULOS//
 .titulo-con-imagen
@@ -135,13 +145,13 @@ figcaption, table caption
 .titulo-con-imagen__fondo
   background-color: $color-primario
   border-radius: 20px
-  padding: 15px 30px 15px 60px
+  padding: 10px 30px 10px 60px
   display: inline-flex
   align-items: center
 .titulo-con-imagen__imagen
   position: absolute
   left: -15px
-  width: 85px
+  width: 55px
 .titulo-con-imagen__texto
   margin: 0
   padding-left: 20px
@@ -240,10 +250,6 @@ figcaption, table caption
     background-color: $color-acento-botones
     border-color: $color-acento-botones
 
-.boton.barra-avance__boton--regresar
-  span
-    color: $white !important
-
 ul.checklist
   li
     position: relative
@@ -253,12 +259,18 @@ ul.checklist
       top: -2px
       content: url('../assets/curso/common/green-disc.svg')
 
-.tarjeta-avatar-b__img
-  img
-    position: absolute
-    top: 0
-    left: -15px
-    min-width: 90px !important
+.tarjeta-avatar-b
+  &__img
+    position: relative
+    img
+      min-width: 84px !important
+    
+    .top-position
+      position: absolute
+      top: 0
+      left: 0
+
+  
 
 .slyder-f
   align-items: center
