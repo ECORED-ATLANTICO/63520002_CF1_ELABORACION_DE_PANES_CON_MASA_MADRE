@@ -64,6 +64,243 @@ figcaption, table caption
 /***CUSTOM STYLES***/
 /**************************************************************/
 
-.bg-terciario-t5
-  background-color: $color-terciario-t5 !important
  
+.text-end 
+    text-align: left !important
+
+// BACKGROUNDS color
+.bg-terciario-t5
+  background-color: $color-terciario-t5
+// .bg-primario-p10
+//   background-color: $color-primario-p10
+// .bg-secundario-s20
+//   background-color: $color-secundario-s10
+// .bg-terciario-t5
+//   background-color: $color-terciario-t5
+// .bg-terciario-t10
+//   background-color: $color-terciario-t10
+// .bg-terciario-t20
+//   background-color: $color-terciario-t20
+.bg-contenido-a20
+  background-color: $color-acento-contenido-a20
+.bg-contenido-a5
+  background-color: $color-acento-contenido-a5
+// .bg-gris
+//   background-color: $color-gris
+// .bg-gris-sistema
+//   background-color: $color-sistema-h
+
+
+// WIDTH
+// .w-145
+//   max-width: 145px
+//   width: 100%
+//   margin: 0 auto
+//   @media (min-width: 992px)
+//     margin-left: 0
+// .w-110
+//   max-width: 110px
+//   width: 100%
+//   margin: 0 auto
+//   @media (min-width: 992px)
+//     margin-left: 0
+// .w-72
+//   width: 72px
+
+//GENERALES
+
+.banner-text
+  background: $color-primario-p5
+  border-radius: 10px
+  padding: 20px 30px
+  margin-top: -60px
+
+.slyder-a
+  .slyder-a__btn--atrs, .slyder-a__btn--sigt
+    background-color: $color-acento-botones
+    background-image: url('../assets/curso/common/white-arrow.svg')
+    color: $white
+  .slyder-a__bullets__item
+    background-color: $color-acento-botones
+  &__bullets__item
+    margin: 0 4px
+    @media (min-width: $bp-min-sm)
+      margin: 0 10px
+
+//CLASES TITULOS//
+.titulo-con-imagen
+  display: flex
+  align-items: center
+  position: relative
+.titulo-con-imagen__fondo
+  background-color: $color-primario
+  border-radius: 20px
+  padding: 15px 30px 15px 60px
+  display: inline-flex
+  align-items: center
+.titulo-con-imagen__imagen
+  position: absolute
+  left: -15px
+  width: 85px
+.titulo-con-imagen__texto
+  margin: 0
+  padding-left: 20px
+
+.fullwidth-bg
+  display: none
+  position: relative
+  z-index: 0
+
+  @media (min-width: $bp-min-lg)
+    display: block
+
+  // &--1::after
+  //   top: 0
+  //   left: 0
+  //   position: absolute
+  //   content: url('../assets/curso/common/bg-timeline.png')
+
+  // &--2::after
+  //   top: 100px
+  //   left: -50px
+  //   position: absolute
+  //   content: url('../assets/curso/common/bg-2.png')
+
+.z-2
+  z-index: 2
+  position: relative
+
+.bg-timeline
+  background-image: url('../assets/curso/common/bg-timeline.png')
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+  border-radius: 20px
+
+.acordion
+  &__accion__btn--a
+    background-color: $color-acento-botones
+    color: $white
+    transition: all 0.3s ease-out
+  .acordion__activo
+    background-color: $color-acento-contenido-a5
+    transition: all 0.3s ease-out
+
+.tabla-a
+  &--text-left
+    td
+      text-align: left !important
+
+//////// Card hover ////////////
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+      background-color: $color-secundario-s10
+      opacity: 0.95
+      h4
+        color: $color-sistema-texto
+        text-align: center
+
+  .crd_hover_txt--body
+    width: 100%
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: $color-secundario-s10
+    h4 
+      text-align: center
+    &--custom
+      @media (max-width: 404px)
+        transform: translateY(calc( 100% - 5rem ))
+
+
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+
+.tabs-a__tab
+  background-color: $color-primario
+
+.linea-tiempo-c__header
+  &__btn--right
+    color: $white !important
+    background-color: $color-acento-botones
+    border-color: $color-acento-botones
+  &__btn--left
+    color: $white !important
+    background-color: $color-acento-botones
+    border-color: $color-acento-botones
+
+.boton.barra-avance__boton--regresar
+  span
+    color: $white !important
+
+ul.checklist
+  li
+    position: relative
+    &::before
+      position: absolute
+      left: -15px
+      top: -2px
+      content: url('../assets/curso/common/green-disc.svg')
+
+.tarjeta-avatar-b__img
+  img
+    position: absolute
+    top: 0
+    left: -15px
+    min-width: 90px !important
+
+.slyder-f
+  align-items: center
+  border-radius: 20px
+
+  &__slyde
+    h4
+      background-color: $color-secundario
+      width: fit-content
+      padding: 4px 20px
+      margin-left: auto
+      margin-right: auto
+  
+  &__main
+    width: 70%
+
+    @media (min-width: 769px)
+      width: 80%
+
+  &__btn
+    height: 35px
+    width: 35px
+    max-width: 35px
+    background-color: $color-acento-botones
+    border-radius: 50%
+    padding: 0 !important
+    margin: 0 auto
+    color: $white
+    .fa-chevron-left
+      font-size: 20px
+    .fa-chevron-right
+      font-size: 20px
+
+.img-infografica__item
+  width: 4.5%
+
+.linea-tiempo-d__item
+  // &__number
+  //   background-color: $color-acento-botones
+  &__content
+    background-color: $color-secundario-s10
+  
+  &.linea-tiempo-d__item--selected
+    .linea-tiempo-d__item__content
+      background-color: $color-secundario-s10
