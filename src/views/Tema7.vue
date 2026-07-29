@@ -186,38 +186,6 @@
               p.mb-0 Permita que la superficie se seque al aire o utilice materiales limpios y desechables cuando sea necesario. Finalmente, verifique la ausencia de suciedad, residuos químicos, humedad excesiva u otras condiciones que puedan afectar la inocuidad.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </template>
 
 <script>

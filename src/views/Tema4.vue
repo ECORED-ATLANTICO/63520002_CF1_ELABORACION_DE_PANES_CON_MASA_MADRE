@@ -209,29 +209,6 @@
               p.mb-0 Almacenamiento adecuado: los utensilios limpios deben almacenarse en un lugar seco, protegido de plagas, preferiblemente en un gabinete cerrado o colgados en rejillas. No almacenar en cajones húmedos o sobre superficies sucias.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </template>
 
 <script>
