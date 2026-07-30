@@ -79,8 +79,8 @@ figcaption, table caption
   background-color: $color-acento-contenido-a5
 .bg-primario-p10
   background-color: $color-primario-p10
-// .bg-secundario-s20
-//   background-color: $color-secundario-s10
+.bg-secundario-s10
+  background-color: $color-secundario-s10
 // .bg-terciario-t5
 //   background-color: $color-terciario-t5
 // .bg-terciario-t10
@@ -93,8 +93,9 @@ figcaption, table caption
   background-color: $color-acento-contenido-a20
 // .bg-gris
 //   background-color: $color-gris
-// .bg-gris-sistema
-//   background-color: $color-sistema-h
+.bg-gris-sistema
+  background-color: $color-sistema-h
+
 .bg-slider
   background-image: url('../assets/curso/common/bg-slider.png')
   background-size: cover
@@ -140,10 +141,13 @@ figcaption, table caption
     border-color: $color-acento-botones
     @media (min-width: $bp-min-sm)
       margin: 0 8px
+
   &--shrink
     .slyder-a__bullets__item
       margin: 0 1px
       @media (min-width: $bp-min-sm)
+        margin: 0 4px
+      @media (min-width: $bp-min-xl)
         margin: 0 8px
 
 //CLASES TITULOS//
@@ -287,7 +291,6 @@ ul.checklist
 
   &__slyde
     h4
-      background-color: $color-secundario
       width: fit-content
       padding: 4px 20px
       margin-left: auto
@@ -325,3 +328,12 @@ ul.checklist
   &.linea-tiempo-d__item--selected
     .linea-tiempo-d__item__content
       background-color: $color-secundario-s10
+
+.imagen-inf
+  position: static
+  @media (min-width: $bp-min-lg)
+    top: -60px
+    left: 0
+    position: absolute
+  @media (min-width: $bp-min-xl)
+    top: -80px
