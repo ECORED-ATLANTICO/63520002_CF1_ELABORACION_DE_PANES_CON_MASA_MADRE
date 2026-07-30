@@ -162,12 +162,12 @@
 
     p.mb-4.mb-lg-5 La limpieza y la desinfección deben realizarse de manera secuencial para garantizar la eliminación de residuos y la reducción de microorganismos en equipos, utensilios y superficies. Cada etapa cumple una función específica y debe ejecutarse respetando los productos, concentraciones y tiempos de contacto establecidos.
 
-    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-sm-10.col-lg-5
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/tema7/11.png", alt="" data-aos="zoom-in-down")
       .col-lg-7
-        .bg-contenido-a5.p-4.mb-4
+        .bg-contenido-a5.p-4
           SlyderA(tipo="b").p-3.p-lg-4.tarjeta.tarjeta--blanca
             div.py-lg-3
               h4 Retiro de residuos
@@ -185,6 +185,8 @@
               h4 Secado y verificación
               p.mb-0 Permita que la superficie se seque al aire o utilice materiales limpios y desechables cuando sea necesario. Finalmente, verifique la ausencia de suciedad, residuos químicos, humedad excesiva u otras condiciones que puedan afectar la inocuidad.
 
+    .p-4.py-3.bg-primario-p10.rounded-3.mb-4.mb-lg-5
+      p.mb-0.text-center La eficacia del procedimiento depende de respetar el orden de cada etapa. Limpiar antes de desinfectar permite que el agente desinfectante actúe correctamente y contribuye a mantener condiciones higiénicas durante la elaboración de panes con masa madre.
 
 </template>
 

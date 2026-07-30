@@ -87,6 +87,8 @@ figcaption, table caption
 //   background-color: $color-terciario-t10
 // .bg-terciario-t20
 //   background-color: $color-terciario-t20
+.bg-contenido-a10
+  background-color: $color-acento-contenido-a10
 .bg-contenido-a20
   background-color: $color-acento-contenido-a20
 // .bg-gris
@@ -129,13 +131,20 @@ figcaption, table caption
   .slyder-a__btn--atrs, .slyder-a__btn--sigt
     background-color: $color-acento-botones
     background-image: url('../assets/curso/common/white-arrow.svg')
-  .slyder-a__bullets__item
-    background-color: $color-acento-botones
+  .slyder-a__bullets
+    &__item
+      background-color: $color-acento-botones
+    
   &__bullets__item
     margin: 0 4px
     border-color: $color-acento-botones
     @media (min-width: $bp-min-sm)
       margin: 0 8px
+  &--shrink
+    .slyder-a__bullets__item
+      margin: 0 1px
+      @media (min-width: $bp-min-sm)
+        margin: 0 8px
 
 //CLASES TITULOS//
 .titulo-con-imagen
@@ -210,7 +219,7 @@ figcaption, table caption
     .crd_hover_txt--body   
       transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
       transform: translateY(0)
-      background-color: $color-secundario-s10
+      background-color: $color-terciario-t10
       opacity: 0.95
       h4
         color: $color-sistema-texto
@@ -223,7 +232,7 @@ figcaption, table caption
     bottom: 0    
     transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
     transform: translateY(calc( 100% - 3.85rem ))
-    background-color: $color-secundario-s10
+    background-color: $color-terciario-t10
     h4 
       text-align: center
     &--custom
