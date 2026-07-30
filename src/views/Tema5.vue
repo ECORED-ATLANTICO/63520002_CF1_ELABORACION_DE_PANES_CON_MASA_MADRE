@@ -119,6 +119,33 @@
               tr(style="background-color: #EAF1FA")
                 td Gancho amasador 
                 td 1 gancho tipo espiral 
+              tr
+                td Potencia del motor 
+                td 1.5 kW (1500 W) 
+              tr(style="background-color: #EAF1FA")
+                td Corriente 
+                td 12 A 
+              tr
+                td Voltaje 
+                td 110 V monofásico, con polo a tierra 
+              tr(style="background-color: #EAF1FA")
+                td Dimensiones (ancho × fondo × alto) 
+                td 39 cm × 73 cm × 90 cm 
+              tr
+                td Peso aproximado 
+                td 90 kg 
+              tr(style="background-color: #EAF1FA")
+                td Material de construcción 
+                td 
+                  ul
+                    li Estructura inferior: fundición de acero 
+                    li Tapa superior: fibra de vidrio con acabado en pintura gris 
+              tr
+                td Controles    
+                td Análogos con switch de seguridad y temporizador 
+              tr(style="background-color: #EAF1FA")
+                td Accesorios incluidos 
+                td 1 bowl, 1 gancho amasador, 1 manual de instrucciones 
 
     .row.justify-content-center
       .col-xl-10
@@ -127,7 +154,7 @@
           span Ejemplo de ficha técnica para horno de convección a gas (Referencia WGCO-613)
         .tabla-a.color-secundario.tabla-a--text-left
           table
-            caption Nota. Adaptado de Tornado Amasadora HS20Z: ficha técnica, (2026). 
+            caption Nota. Adaptado de Horno de convección Wellmix. Referencia: WGCO-613: ficha técnica, (2026). 
             thead
               tr(style="background-color: #E7F2E7")
                 th Campo
@@ -145,6 +172,49 @@
               tr
                 td Material de construcción 
                 td Acero inoxidable 430 
+              tr(style="background-color: #EAF1FA")
+                td Dimensiones externas (ancho × fondo × alto) 
+                td 96.5 cm × 112 cm × 151 cm 
+              tr
+                td Peso aproximado 
+                td 255 kg 
+              tr(style="background-color: #EAF1FA")
+                td Rango de temperatura 
+                td 0 – 295 °C (0 – 563 °F) 
+              tr
+                td Voltaje 
+                td 110 V / 60 Hz 
+              tr(style="background-color: #EAF1FA")
+                td Potencia eléctrica del motor 
+                td 373 W (1/2 HP) 
+              tr
+                td Potencia térmica (gas) 
+                td 54.000 BTU/H (3 quemadores de 18.000 BTU/H c/u) 
+              tr(style="background-color: #EAF1FA")
+                td Tipo de gas 
+                td Gas natural (incluye 3 chicleres para gas propano) 
+              tr
+                td Entrada de gas 
+                td ¾″ 
+              tr(style="background-color: #EAF1FA")
+                td Velocidades del motor 
+                td ALTA (1725 RPM) / BAJA (1140 RPM) 
+              tr
+                td Modos del ventilador 
+                td COOK (se detiene al abrir puertas) / COOL (funciona con puertas abiertas) 
+              tr(style="background-color: #EAF1FA")
+                td Temporizador 
+                td 0 – 60 minutos (solo aviso audible, no apaga el equipo) 
+              tr
+                td Iluminación interior 
+                td Luz halógena con interruptor independiente 
+              tr(style="background-color: #EAF1FA")
+                td Puertas 
+                td Batientes con vidrio de alto impacto 
+              tr
+                td Accesorios incluidos 
+                td 4 parrillas, 3 chicleres para propano, 4 patas con ruedas y frenos, chimenea, manual de instrucciones, calcomanía de placa técnica 
+
 
     separador
 

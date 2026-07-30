@@ -105,12 +105,6 @@
       h2 1.2 Normativa sanitaria aplicable en Colombia para la elaboración de panes con masa madre 
 
     p.mb-4.mb-lg-5 El marco legal colombiano para alimentos es amplio. A continuación, se detallan las normas más relevantes para la panadería de masa madre:
-    
-    .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
-      .col-lg-8
-        p Los principios y requisitos generales de las BPM son fundamentales para la aplicación de las Buenas Prácticas de Manufactura en la elaboración de panes con masa madre. Estos principios y requisitos se aplican a todas las etapas del proceso productivo, desde la recepción de las materias primas hasta el almacenamiento y la distribución del producto terminado.
-        .bg-terciario-t5.p-4.rounded-3.mb-3
-          p.mb-0 Los principios y requisitos generales de las BPM son fundamentales para la aplicación de las Buenas Prácticas de Manufactura en la elaboración de panes con masa madre. Estos principios y requisitos se aplican a todas las etapas del proceso productivo, desde la recepción de las materias primas hasta el almacenamiento y la distribución del producto terminado.
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
       .col-sm-8.col-lg-4

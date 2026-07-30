@@ -84,6 +84,12 @@
               tr
                 td Materiales permitidos
                 td Acero inoxidable (AISI 304 o 316), polietileno de alta densidad (HDPE), polipropileno (PP), silicona de grado alimenticio y nailon para determinados cepillos o implementos de limpieza.
+              tr(style="background-color: #EAF1FA")
+                td Materiales de uso restringido 
+                td Madera, únicamente para determinadas aplicaciones, como utensilios destinados al pan ya horneado, siempre que esté sellada con resina apta para contacto con alimentos, se mantenga en buen estado y haga parte del programa de limpieza y mantenimiento del establecimiento. 
+              tr
+                td Materiales que deben evitarse 
+                td Aluminio, por su susceptibilidad a la corrosión frente a la acidez de la masa madre; cobre, por el riesgo de reaccionar con alimentos ácidos; y vidrio, debido al riesgo de rotura y contaminación física durante el proceso de elaboración. 
 
     separador
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
@@ -180,6 +186,33 @@
                 td Referencia o código
                 td Facilitar la trazabilidad e identificación del utensilio dentro del inventario.
                 td ESP-001
+              tr(style="background-color: #EAF1FA")
+                td Material 
+                td Verificar que el utensilio esté fabricado con un material apto para el contacto con alimentos. 
+                td Silicona de grado alimenticio con mango de acero inoxidable.   
+              tr
+                td Dimensiones 
+                td Registrar el tamaño o la capacidad del utensilio para su correcta utilización. 
+                td Longitud: 28 cm. Ancho de la pala: 6 cm 
+              tr(style="background-color: #EAF1FA")
+                td Rango de temperatura de uso 
+                td Establecer las condiciones de operación recomendadas por el fabricante para evitar deterioro del utensilio. 
+                td De -40 °C a 230 °C 
+              tr
+                td Método de limpieza y desinfección recomendado 
+                td Definir el procedimiento de higiene que garantice su conservación y evite la contaminación de los alimentos. 
+                td Lavar con agua potable y detergente neutro, desinfectar según el protocolo del establecimiento y dejar secar al aire. 
+              tr(style="background-color: #EAF1FA")
+                td Frecuencia de inspección o reemplazo 
+                td Determinar la periodicidad para verificar el estado del utensilio y definir su sustitución cuando presente deterioro. 
+                td Inspección semanal y reemplazo inmediato si presenta grietas, desprendimientos o deformaciones. 
+              tr
+                td Proveedor 
+                td Registrar el fabricante o distribuidor para facilitar la reposición y el seguimiento de la garantía. 
+                td PanEquipos S.A.S. 
+
+
+
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
         img.titulo-con-imagen__imagen(src="@/assets/curso/common/title-icon.svg")

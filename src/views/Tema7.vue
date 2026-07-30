@@ -138,6 +138,37 @@
               tr
                 td Responsable
                 td(colspan="2") Operario de amasado
+              tr(style="background-color: #EAF1FA")
+                td Frecuencia 
+                td(colspan="2") Después de cada tanda de amasado (cada 2-3 horas) y al final de la jornada. 
+              tr
+                td EPP 
+                td(colspan="2") Guantes de nitrilo, delantal impermeable, gafas de seguridad (para la desinfección). 
+              tr(style="background-color: #EAF1FA")
+                td Insumos 
+                td(colspan="2") Detergente neutro, hipoclorito de sodio (100 ppm), esponja suave, cepillo de cerdas plásticas, paños de un solo uso, raspador de plástico. 
+              tr
+                td Procedimiento 
+                td(colspan="2") 
+                  p.mb-0 1. Desconectar la máquina de la corriente eléctrica. 
+                  p.mb-0 2. Prelavado: retirar residuos de masa con raspador de plástico. Depositar residuos en caneca. 
+                  p.mb-0 3. Lavado: aplicar detergente neutro con esponja suave, frotar tazón, gancho espiral, eje y todas las superficies internas. Usar cepillo para uniones. No usar esponja de acero (raya el acero). 
+                  p.mb-0 4. Enjuague: con agua potable a presión (manguera o jarra). 
+                  p.mb-0 5. Desinfección: rociar o aplicar con paño limpio solución de hipoclorito de sodio 100 ppm en todas las superficies. Dejar actuar 5 minutos. 
+                  p.mb-0 6. Enjuague final: enjuagar con abundante agua potable para eliminar residuos de cloro. 
+                  p.mb-0 7. Secado: dejar secar al aire o secar con paño de un solo uso. 
+                  p.mb-0 8. Dejar la tapa abierta (si tiene) para ventilación. 
+              tr(style="background-color: #EAF1FA")
+                td Verificación 
+                td(colspan="2") 
+                  ol
+                    li Inspección visual: superficies brillantes, sin residuos, sin olor a cloro residual. 
+                    li Semanalmente: hisopado para recuento de mesófilos. 
+              tr
+                td Registro 
+                td(colspan="2") Formato FR-LIMP-01 (Registro diario de limpieza de equipos). 
+
+
 
     .row.justify-content-center
       .col-xl-10
