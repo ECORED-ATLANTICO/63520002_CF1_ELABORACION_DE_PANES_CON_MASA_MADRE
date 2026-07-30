@@ -84,7 +84,7 @@
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/tema2/4.png", alt="alt")
-          .crd_hover_txt--body.px-0.crd_hover_txt--body--custom
+          .crd_hover_txt--body.px-0
             h4.mb-3 El comportamiento permitido incluye
             p.mb-0.px-4 Hablar lo necesario para la coordinación del trabajo, beber agua únicamente de fuentes permitidas en áreas designadas, y usar los elementos de protección personal. 
     
@@ -233,7 +233,7 @@
         h3.titulo-con-imagen__texto Aspectos que debe incluir la capacitación
 
     TabsB.color-acento-contenido.mb-4
-      .py-4.py-md-5.bg-secundario-s10(titulo="Higiene personal" :icono="require_src('@/assets/componentes/ej-04.svg')")
+      .py-4.py-md-5.bg-secundario-s10(titulo="Higiene personal" :icono="require_src('@/assets/curso/tema2/15.png')")
         .row.align-items-center.justify-content-center.px-3
           .col-lg-7
             h4 Higiene personal
@@ -241,7 +241,7 @@
           .col-sm-8.col-lg-4
             figure
               img(src='@/assets/curso/tema2/20.png', alt='')
-      .py-4.py-md-5.bg-secundario-s10(titulo="Buenas Prácticas de Manufactura" :icono="require_src('@/assets/curso/tema2/16.svg')")
+      .py-4.py-md-5.bg-secundario-s10(titulo="Buenas Prácticas de Manufactura" :icono="require_src('@/assets/curso/tema2/16.png')")
         .row.align-items-center.justify-content-center.px-3
           .col-lg-7
             h4 Buenas Prácticas de Manufactura
@@ -249,7 +249,7 @@
           .col-sm-8.col-lg-4
             figure
               img(src='@/assets/curso/tema2/21.png', alt='')
-      .py-4.py-md-5.bg-secundario-s10(titulo="Prevención de la contaminación" :icono="require_src('@/assets/curso/tema2/17.svg')")
+      .py-4.py-md-5.bg-secundario-s10(titulo="Prevención de la contaminación" :icono="require_src('@/assets/curso/tema2/17.png')")
         .row.align-items-center.justify-content-center.px-3
           .col-lg-7
             h4 Prevención de la contaminación
@@ -257,7 +257,7 @@
           .col-sm-8.col-lg-4
             figure
               img(src='@/assets/curso/tema2/22.png', alt='')
-      .py-4.py-md-5.bg-secundario-s10(titulo="Limpieza y desinfección" :icono="require_src('@/assets/curso/tema2/18.svg')")
+      .py-4.py-md-5.bg-secundario-s10(titulo="Limpieza y desinfección" :icono="require_src('@/assets/curso/tema2/18.png')")
         .row.align-items-center.justify-content-center.px-3
           .col-lg-7
             h4 Limpieza y desinfección
@@ -265,7 +265,7 @@
           .col-sm-8.col-lg-4
             figure
               img(src='@/assets/curso/tema2/23.png', alt='')
-      .py-4.py-md-5.bg-secundario-s10(titulo="Seguridad y manejo de emergencias" :icono="require_src('@/assets/curso/tema2/19.svg')")
+      .py-4.py-md-5.bg-secundario-s10(titulo="Seguridad y manejo de emergencias" :icono="require_src('@/assets/curso/tema2/19.png')")
         .row.align-items-center.justify-content-center.px-3
           .col-lg-7
             h4 Seguridad y manejo de emergencias
@@ -286,42 +286,42 @@
       .col-sm-6.col-lg-5.col-xl-3.mb-4
         .tarjeta-avatar-b.h-100.position-relative
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema2/25.svg' alt='')
+            img.top-position(src='@/assets/curso/tema2/25.svg' alt='')
           .tarjeta.bg-primario-p10.h-100
             .p-4.ps-5.h-100
               p.mb-0 Fecha de la capacitación.
       .col-sm-6.col-lg-5.col-xl-3.mb-4
         .tarjeta-avatar-b.h-100.position-relative
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema2/26.svg' alt='')
+            img.top-position(src='@/assets/curso/tema2/26.svg' alt='')
           .tarjeta.bg-primario-p10.h-100
             .p-4.ps-5.h-100
               p.mb-0 Tema o contenido desarrollado.
       .col-sm-6.col-lg-5.col-xl-3.mb-4
         .tarjeta-avatar-b.h-100.position-relative
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema2/27.svg' alt='')
+            img.top-position(src='@/assets/curso/tema2/27.svg' alt='')
           .tarjeta.bg-primario-p10.h-100
             .p-4.ps-5.h-100
               p.mb-0 Nombre del instructor o capacitador.
       .col-sm-6.col-lg-5.col-xl-3.mb-4
         .tarjeta-avatar-b.h-100.position-relative
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema2/28.svg' alt='')
+            img.top-position(src='@/assets/curso/tema2/28.svg' alt='')
           .tarjeta.bg-primario-p10.h-100
             .p-4.ps-5.h-100
               p.mb-0 Lista de asistentes.
       .col-sm-6.col-lg-5.col-xl-3.mb-4.mb-xl-0
         .tarjeta-avatar-b.h-100.position-relative
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema2/29.svg' alt='')
+            img.top-position(src='@/assets/curso/tema2/29.svg' alt='')
           .tarjeta.bg-primario-p10.h-100
             .p-4.ps-5.h-100
               p.mb-0 Firma de cada participante.
       .col-sm-6.col-lg-5.col-xl-3.mb-4.mb-xl-0
         .tarjeta-avatar-b.h-100.position-relative
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema2/30.svg' alt='')
+            img.top-position(src='@/assets/curso/tema2/30.svg' alt='')
           .tarjeta.bg-primario-p10.h-100
             .p-4.ps-5.h-100
               p.mb-0 Evidencia de evaluación o verificación del aprendizaje.

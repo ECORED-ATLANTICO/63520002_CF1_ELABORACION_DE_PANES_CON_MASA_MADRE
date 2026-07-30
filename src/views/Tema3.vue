@@ -20,7 +20,7 @@
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-lg-8
         p La contaminación de los alimentos es la presencia en ellos de cualquier agente físico, químico o biológico que pueda provocar un riesgo para la salud del consumidor o una alteración de la calidad del producto. Puede ocurrir en cualquier etapa: desde la materia prima (harina con esporas de Bacillus cereus), durante el procesamiento (manos sucias), o después del horneado (moho por almacenamiento húmedo).
-        .cajon.color-terciario.p-4
+        .cajon.color-terciario.p-4.mb-4.mb-lg-0
           p.mb-0 Existen variedades de tipos de contaminaciones, estas pueden en peligro la salud, tanto de los trabajadores como de los consumidores, es en medida que las BPM, deben aplicarse para un riguroso proceso dentro de las instalaciones, lo que ayuda a la prevención de este tipo de contaminaciones.
       .col-sm-8.col-lg-4
         figure
@@ -213,35 +213,199 @@
         div.banner-text
           p.mb-0 El control del tiempo y la temperatura durante la elaboración de panes con masa madre es fundamental para garantizar la inocuidad y obtener productos de buena calidad. Una fermentación o un enfriamiento inadecuados pueden favorecer la proliferación de microorganismos y afectar las características del pan. Por ello, es importante aplicar las siguientes pautas durante el proceso de elaboración.
 
+    .titulo-con-imagen.mb-5(data-aos="fade-right")
+      .titulo-con-imagen__fondo
+        img.titulo-con-imagen__imagen(src="@/assets/curso/common/title-icon.svg")
+        h3.titulo-con-imagen__texto Pautas para el control de temperatura
 
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+      .col-sm-6.col-lg-3
+        figure
+          img.mb-4.mb-lg-0(src="@/assets/curso/tema3/10.png", alt="" data-aos="zoom-in-down")
+      .col-lg-8.col-xl-7
+        AcordionA(tipo="a" clase-tarjeta="tarjeta bg-contenido-a20")
+          div(titulo="Evitar la zona de peligro")
+            p.mb-0.ps-lg-5 Las masas no deben permanecer por tiempos prolongados entre 5 °C y 60 °C, ya que en este rango los microorganismos pueden multiplicarse rápidamente.
+          div(titulo="Controlar la fermentación")
+            p.mb-0.ps-lg-5 Si la fermentación supera las 4 horas, es recomendable realizarla bajo refrigeración entre 4 °C y 5 °C.
+          div(titulo="Verificar la temperatura")
+            p.mb-0.ps-lg-5 Utilice un termómetro de sonda calibrado para controlar la temperatura durante la fermentación y registrar las mediciones.
+          div(titulo="Enfriar correctamente el pan")
+            p.mb-0.ps-lg-5 Después del horneado, deje enfriar el pan sobre rejillas hasta alcanzar la temperatura ambiente antes de empacarlo.
+          div(titulo="Almacenar adecuadamente")
+            p.mb-0.ps-lg-5 Conserve el pan en un lugar limpio, seco y protegido de la humedad y la luz solar directa.
 
+    .bg-terciario-t5.rounded-4.mb-4
+      .row.justify-content-center.align-items-center
+        .col-lg-10
+          .p-4.py-3
+            h5 Ejemplo aplicado
+            p.mb-4.mb-lg-0 Un panadero deja una masa fermentando durante toda la noche a temperatura ambiente para intensificar su sabor. Aunque la fermentación continúa, el tiempo prolongado dentro de la zona de peligro favorece la multiplicación de microorganismos y puede afectar la inocuidad del producto. Para prevenir este riesgo, es recomendable realizar las fermentaciones prolongadas bajo refrigeración y controlar periódicamente la temperatura de la masa.
+        .col-5.col-sm-4.col-lg-2
+          figure
+            img.imgw-160(src="@/assets/curso/tema3/11.png", alt="")
 
+    .p-4.py-3.bg-secundario-s10.rounded-4
+      p.mb-0.text-center El control de la temperatura durante la fermentación, el enfriamiento y el almacenamiento constituye una medida preventiva esencial para obtener panes seguros, de buena calidad y con las características propias de la masa madre.
 
+    separador
 
+    #t_3_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 3.3 Prevención de la contaminación cruzada en la elaboración de pan de masa madre
 
+    img(src="@/assets/curso/tema3/9.png", alt="" data-aos="fade-up")
+    .row.justify-content-center.z-2
+      .col-lg-10.p-4.drop-shadow(data-aos="fade-down")
+        div.banner-text
+          p.mb-0 La contaminación cruzada ocurre cuando microorganismos patógenos se transfieren de un alimento contaminado (generalmente crudo) a otro que no lo está, a través de utensilios, superficies, manos o aire, es recomendable seguir estas pautas:
 
+    .titulo-con-imagen.mb-5(data-aos="fade-right")
+      .titulo-con-imagen__fondo
+        img.titulo-con-imagen__imagen(src="@/assets/curso/common/title-icon.svg")
+        h3.titulo-con-imagen__texto Separación física de procesos (crudo vs cocido)
 
+    .p-4.py-3.bg-secundario-s5.rounded-4.mb-4
+      p.mb-0.text-center En una panadería, se deben distinguir claramente las zonas de trabajo esto evita la contaminación:
 
+    .row.align-items-stretch.justify-content-center.mb-4
+      .col-sm-10.col-lg-6.col-xl-5.mb-4.mb-lg-0
+        .tarjeta-avatar-b.h-100.position-relative
+          .tarjeta-avatar-b__img
+            img.top-position(src='@/assets/curso/tema3/13.svg' alt='')
+          .tarjeta.bg-primario-p10.h-100
+            .p-4.ps-5.h-100
+              p.mb-0 Zona sucia (o zona de materias primas y masas crudas): donde se recibe la harina, se pesan los ingredientes, se amasa y se fermenta.
+      .col-sm-10.col-lg-6.col-xl-5.mb-4.mb-lg-0
+        .tarjeta-avatar-b.h-100.position-relative
+          .tarjeta-avatar-b__img
+            img.top-position(src='@/assets/curso/tema3/14.svg' alt='')
+          .tarjeta.bg-primario-p10.h-100
+            .p-4.ps-5.h-100
+              p.mb-0 Zona limpia (o zona de producto terminado): donde se enfría, empaca y almacena el pan horneado.
 
+    p.mb-4.mb-lg-5 Idealmente, estas zonas deben estar separadas por una pared o al menos por una distancia mínima de 3 metros, con flujo de personal y materiales unidireccional (nunca llevar pan horneado a la zona sucia).
 
+    .titulo-con-imagen.mb-5(data-aos="fade-right")
+      .titulo-con-imagen__fondo
+        img.titulo-con-imagen__imagen(src="@/assets/curso/common/title-icon.svg")
+        h3.titulo-con-imagen__texto Segregación de utensilios (uso de colores)
 
+    .p-4.py-3.bg-primario-p10.rounded-4.py-xl-1.mb-5
+      .row.justify-content-center.align-items-center
+        .col-lg-10
+          p.mb-4.mb-lg-0 Este es un elemento importante para evitar la contaminación cruzada, ya que el uso de utensilios de diferentes colores durante la etapa de elaboración de panes con masa madre, favorecen orden y una prevención para la calidad del producto.
+        .col-5.col-sm-4.col-lg-2
+          figure
+            img.imgw-85(src="@/assets/curso/tema3/15.svg", alt="")
 
+    .titulo-con-imagen.mb-5(data-aos="fade-right")
+      .titulo-con-imagen__fondo.color-terciario
+        img.titulo-con-imagen__imagen(src="@/assets/curso/common/title-icon-2.svg")
+        h3.titulo-con-imagen__texto Ejemplo de segregación de utensilios para prevenir la contaminación cruzada
 
+    .row.justify-content-center.mb-4.mb-lg-5
+      .col-sm-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left").tarjeta
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema3/16.png", alt="alt")
+          .crd_hover_txt--body.px-0.crd_hover_txt--body--custom
+            h4.mb-0 Utensilios para pan horneado
+            h4.mb-4 Color de identificación: rojo
+            p.mb-0.px-4 Se utilizan únicamente para manipular panes ya horneados o productos listos para el consumo. No deben emplearse nuevamente sobre masas crudas.
+    
+      .col-sm-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left").tarjeta
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema3/17.png", alt="alt")
+          .crd_hover_txt--body.px-0.crd_hover_txt--body--custom
+            h4.mb-0 Utensilios para masas crudas
+            h4.mb-4 Color de identificación: verde
+            p.mb-0.px-4 Se destinan exclusivamente a la manipulación de masas antes del horneado. Su uso exclusivo evita que microorganismos presentes en materias primas entren en contacto con productos listos para el consumo.
 
+      .col-sm-8.col-lg-6.col-xl-4
+        .crd_hover_txt(data-aos="flip-left").tarjeta
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema3/18.png", alt="alt")
+          .crd_hover_txt--body.px-0.crd_hover_txt--body--custom
+            h4.mb-0 Implementos de limpieza
+            h4.mb-4 Color de identificación: azul
+            p.mb-0.px-4 Corresponde a escobas, cepillos y demás implementos destinados a la limpieza. Estos elementos nunca deben utilizarse para manipular alimentos.
 
+    .row.justify-content-center.mb-4.mb-lg-5
+      .col-xl-10
+        .bg-primario-p20.rounded-4.p-4
+          .row.justify-content-center.align-items-center
+            .col-3.col-lg-2
+              figure
+                img.imgw-80.mb-4.mb-lg-0(src="@/assets/curso/tema3/19.svg", alt="")
+            .col-lg-10
+              h5 Importante: 
+              p.mb-0 La codificación por colores puede variar entre establecimientos. Lo importante es que cada empresa defina un sistema de identificación, lo documente y garantice que todo el personal lo conozca y lo aplique correctamente.
 
+    .p-4.py-3.bg-secundario-s5.rounded-4.mb-4
+      p.mb-0.text-center Lo invitamos a consultar el siguiente video para profundizar sobre los procedimientos de limpieza, desinfección y registro en la panadería de masa madre
 
+    figure.mb-5
+      .video.mb-2
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Leyenda del video
 
+    .titulo-con-imagen.mb-5(data-aos="fade-right")
+      .titulo-con-imagen__fondo
+        img.titulo-con-imagen__imagen(src="@/assets/curso/common/title-icon.svg")
+        h3.titulo-con-imagen__texto Aplicación del flujo de producción unidireccional
 
+    .bloque-texto-g.color-terciario.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require_src('@/assets/curso/tema3/20.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 Este elemento indica que el área de trabajo debe ser diseñada bajo un estricto orden de producción unidireccional, es decir, que cada paso debe ir hacia adelante y nunca retroceder, este principio cumple con el correcto proceso en la elaboración de panes con masa madre. 
 
+    .titulo-con-imagen.mb-5(data-aos="fade-right")
+      .titulo-con-imagen__fondo.color-terciario
+        img.titulo-con-imagen__imagen(src="@/assets/curso/common/title-icon-2.svg")
+        h3.titulo-con-imagen__texto Etapas del flujo de producción unidireccional de panes con masa madre
 
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+      .col-sm-10.col-lg-5
+        figure
+          img.mb-4.mb-lg-0(src="@/assets/curso/tema3/21.png", alt="" data-aos="zoom-in-down")
+      .col-lg-7
+        .bg-contenido-a5.p-4.mb-4
+          SlyderA(tipo="b").p-3.p-lg-4.tarjeta.tarjeta--blanca
+            div.py-lg-3
+              h4 Recepción y almacenamiento de materias primas
+              p.mb-0 Recepcione los ingredientes verificando su calidad y almacénelos en condiciones adecuadas de higiene, temperatura y humedad.
+            div.py-lg-3
+              h4 Pesado de ingredientes
+              p.mb-0 Dosifique los ingredientes según la formulación establecida para garantizar la estandarización del producto.
+            div.py-lg-3
+              h4 Amasado
+              p.mb-0 Mezcle los ingredientes hasta obtener una masa homogénea con el desarrollo adecuado del gluten.
+            div.py-lg-3
+              h4 Fermentación de la masa
+              p.mb-0 Permita que la masa fermente bajo condiciones controladas de tiempo y temperatura para favorecer su desarrollo.
+            div.py-lg-3
+              h4 División y moldeado
+              p.mb-0 Porcione la masa y dele la forma requerida según el tipo de pan que se desea elaborar.
+            div.py-lg-3
+              h4 Horneado
+              p.mb-0 Hornee el producto a la temperatura y durante el tiempo establecidos para lograr una cocción uniforme.
+            div.py-lg-3
+              h4 Enfriamiento
+              p.mb-0 Deje enfriar el pan sobre rejillas limpias hasta alcanzar la temperatura ambiente antes de empacarlo.
 
-
-
-
-
-
-
+    .bg-secundario-s5.rounded-4.p-4.py-xl-1
+      .row.justify-content-center.align-items-center
+        .col-lg-10
+          p.mb-4.mb-lg-0 Este proceso unidireccional no debe ser saltado, ni cruzado: por ejemplo, no pasar pan horneado por encima de la zona de amasado, saltar un paso, supone un riesgo tanto de contaminación como de una mala calidad del producto. 
+        .col-3.col-lg-2
+          figure
+            img.imgw-80(src="@/assets/curso/tema3/22.svg", alt="")
 
 
 
