@@ -134,10 +134,10 @@
             tbody
               tr(style="background-color: #EAF1FA")
                 td Objetivo
-                td(colspan="2") Limpiar y desinfectar la amasadora después de cada uso para evitar contaminación cruzada y acumulación de masa residual
+                td(colspan="2") Limpiar y desinfectar la amasadora después de cada uso para evitar contaminación cruzada y acumulación de masa residual.
               tr
                 td Responsable
-                td(colspan="2") Operario de amasado
+                td(colspan="2") Operario de amasado.
               tr(style="background-color: #EAF1FA")
                 td Frecuencia 
                 td(colspan="2") Después de cada tanda de amasado (cada 2-3 horas) y al final de la jornada. 

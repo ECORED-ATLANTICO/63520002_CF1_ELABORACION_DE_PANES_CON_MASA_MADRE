@@ -470,7 +470,7 @@ export default {
         {
           id: 14,
           texto:
-            'En el modo COOK del horno de convección WGCO-613, el ventilador y los quemadores:',
+            'En el modo <em>COOK</em> del horno de convección WGCO-613, el ventilador y los quemadores:',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
@@ -496,7 +496,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'No. En modo COOK, el ventilador se detiene al abrir puertas; en COOL funciona siempre.',
+            'No. En modo <em>COOK</em>, el ventilador se detiene al abrir puertas; en <em>COOL</em> funciona siempre.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },

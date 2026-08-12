@@ -11,13 +11,13 @@
     .row.justify-content-center.z-2
       .col-lg-10.p-4.drop-shadow(data-aos="fade-down")
         div.banner-text.banner-text--secundario
-          p.mb-0 La operación segura de los equipos de panadería es fundamental para garantizar la calidad del proceso productivo, prevenir accidentes laborales y prolongar la vida útil de los equipos. Su manejo adecuado, junto con el cumplimiento de las recomendaciones de uso, limpieza y mantenimiento, contribuye a desarrollar procesos eficientes y acordes con las Buenas Prácticas 
+          p.mb-0 La operación segura de los equipos de panadería es fundamental para garantizar la calidad del proceso productivo, prevenir accidentes laborales y prolongar la vida útil de los equipos. Su manejo adecuado, junto con el cumplimiento de las recomendaciones de uso, limpieza y mantenimiento, contribuye a desarrollar procesos eficientes y acordes con las Buenas Prácticas de Manufactura (BPM). 
 
     separador
     #t_5_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 5.1 Tipos de equipos (amasadoras, hornos, cámaras y otros)
 
-    p.mb-4.mb-lg-5 Los equipos de panadería son herramientas esenciales para la elaboración de panes con masa madre. Su correcto funcionamiento, limpieza y mantenimiento son fundamentales para garantizar la calidad del producto y prevenir accidentes laborales. Además, el uso adecuado de estos equipos contribuye a optimizar los procesos productivos y a reducir los costos operativos.
+    p.mb-4.mb-lg-5 La elaboración de panes con masa madre requiere equipos que faciliten las diferentes etapas del proceso productivo, desde el mezclado de los ingredientes hasta la conservación del producto terminado. La selección del equipo depende del volumen de producción, las características de la masa y el nivel de automatización del establecimiento. Además de mejorar la eficiencia, el uso adecuado de estos equipos contribuye a mantener la calidad del producto, optimizar los tiempos de trabajo y garantizar condiciones seguras para el operario.  
 
     .bloque-texto-g.color-terciario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
@@ -96,7 +96,7 @@
                 td Marca
                 td TORNADO (Pallomaro S.A.)
               tr
-                td Referencia / Modelo
+                td Modelo / Referencia
                 td HS20Z
               tr(style="background-color: #EAF1FA")
                 td Tipo de equipo 
@@ -137,15 +137,19 @@
               tr(style="background-color: #EAF1FA")
                 td Material de construcción 
                 td 
-                  ul
-                    li Estructura inferior: fundición de acero 
-                    li Tapa superior: fibra de vidrio con acabado en pintura gris 
+                  ul.lista-ul
+                    li.mb-0
+                      i.lista-ul__vineta
+                      span Estructura inferior: fundición de acero 
+                    li.mb-0
+                      i.lista-ul__vineta
+                      span Tapa superior: fibra de vidrio con acabado en pintura gris 
               tr
                 td Controles    
-                td Análogos con switch de seguridad y temporizador 
+                td Análogos con #[em switch] de seguridad y temporizador 
               tr(style="background-color: #EAF1FA")
                 td Accesorios incluidos 
-                td 1 bowl, 1 gancho amasador, 1 manual de instrucciones 
+                td 1 #[em bowl], 1 gancho amasador, 1 manual de instrucciones 
 
     .row.justify-content-center
       .col-xl-10
@@ -164,7 +168,7 @@
                 td Marca 
                 td WELLMIX (Pallomaro S.A.) 
               tr
-                td Referencia / Modelo
+                td Modelo / Referencia
                 td WGCO-613
               tr(style="background-color: #EAF1FA")
                 td Tipo de horno 
@@ -201,7 +205,7 @@
                 td ALTA (1725 RPM) / BAJA (1140 RPM) 
               tr
                 td Modos del ventilador 
-                td COOK (se detiene al abrir puertas) / COOL (funciona con puertas abiertas) 
+                td <em>COOK</em> (se detiene al abrir puertas) / <em>COOL</em> (funciona con puertas abiertas) 
               tr(style="background-color: #EAF1FA")
                 td Temporizador 
                 td 0 – 60 minutos (solo aviso audible, no apaga el equipo) 
@@ -224,7 +228,7 @@
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-lg-8
         p El procedimiento de operación de equipos establece las acciones necesarias para garantizar el uso adecuado, seguro y eficiente de la maquinaria empleada en los procesos productivos. Su correcta aplicación permite optimizar el rendimiento del equipo, prevenir riesgos laborales y asegurar la calidad del producto final. 
-        .p-4.py-3.bg-secundario-s5.rounded-3
+        .p-4.py-3.bg-secundario-s5.rounded-3.mb-3.mb-lg-0
           p.mb-0 Antes de poner en funcionamiento cualquier equipo de panadería, deben realizarse las verificaciones generales de seguridad. Estas consisten en confirmar que el equipo esté ubicado sobre una superficie plana y estable, que el tomacorriente sea exclusivo, se encuentre en buen estado y disponga de polo a tierra, que el cable de alimentación no presente deterioro y que las piezas móviles, como el tazón y el gancho, estén correctamente instaladas y funcionen adecuadamente.
       .col-sm-8.col-lg-4
         figure
@@ -299,8 +303,8 @@
         .col-lg-9
           h3 Encendido y selección del modo de ventilación
           p Coloque el interruptor general en posición ON. El ventilador comenzará a funcionar. Luego, seleccione el modo requerido:
-          p.mb-0 #[strong COOK]: el ventilador se detiene cuando se abren las puertas.
-          p #[strong COOL]: el ventilador permanece en funcionamiento y facilita el enfriamiento.
+          p.mb-0 #[strong #[em COOK]]: el ventilador se detiene cuando se abren las puertas.
+          p #[strong #[em COOL]]: el ventilador permanece en funcionamiento y facilita el enfriamiento.
           p.mb-0 #[strong Recomendación de seguridad]: seleccione el modo antes de introducir el producto y evite acercar las manos al ventilador.
 
       .row.justify-content-center.align-items-center
@@ -309,6 +313,7 @@
           p Ajuste el temporizador entre 0 y 60 minutos, seleccione la temperatura requerida sin superar los 295 °C y establezca la velocidad del motor:
           p.mb-0 #[strong Baja, 1140 rpm]: para cocciones suaves o productos delicados.
           p #[strong Alta, 1725 rpm]: para mayor circulación de aire o dorado rápido.
+          p El piloto naranja permanece encendido mientras funcionan los quemadores y se apaga cuando el horno alcanza la temperatura seleccionada. 
           p.mb-0 #[strong Importante]: el temporizador emite una alarma, pero no apaga automáticamente el horno.
         .col-sm-4.col-lg-2
           figure
@@ -320,7 +325,7 @@
             img.imgw-105(src='@/assets/curso/tema5/13.png', alt='')
         .col-lg-9
           h3 Control durante la cocción
-          p Utilice la luz halógena para observar el producto a través del vidrio y evite abrir las puertas innecesariamente. En modo COOK, la apertura de las puertas detiene automáticamente el ventilador y los quemadores; el funcionamiento se reanuda cuando se cierran.
+          p Utilice la luz halógena para observar el producto a través del vidrio y evite abrir las puertas innecesariamente. En modo #[em COOK], la apertura de las puertas detiene automáticamente el ventilador y los quemadores; el funcionamiento se reanuda cuando se cierran.
           p.mb-0 #[strong Recomendación de seguridad]: emplee guantes térmicos y mantenga una distancia prudente al abrir el horno para evitar quemaduras por calor o vapor.
 
       .row.justify-content-center.align-items-center
@@ -337,8 +342,6 @@
     #t_5_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 5.4 Dispositivos de seguridad y mantenimiento preventivo
 
-    p.mb-4.mb-lg-5 A continuación, se describe el procedimiento específico para la operación de la cámara de fermentación y refrigeración, con base en las recomendaciones del fabricante.
-
     .bloque-texto-g.color-terciario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require_src('@/assets/curso/tema5/15.png')})`}"
@@ -350,7 +353,7 @@
       .col-xl-10
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Tabla 11.
-          span Dispositivos de seguridad en la amasadora Tornado HS20Z. 
+          span Dispositivos de seguridad en la amasadora Tornado HS20Z
         .tabla-a.color-secundario.tabla-a--text-left.mb-5
           table
             caption Nota. Adaptado de Tornado Amasadora HS20Z: manual de instrucciones, (2026). 
@@ -381,7 +384,7 @@
       .col-xl-10
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Tabla 12.
-          span Dispositivos de seguridad en el horno de convección Tornado WGCO-613:
+          span Dispositivos de seguridad en el horno de convección Tornado WGCO-613
         .tabla-a.color-secundario.tabla-a--text-left.mb-5
           table
             caption Nota. Adaptado de Horno de convección Wellmix. Referencia: WGCO-613: manual de instrucciones, (2026). 
@@ -392,9 +395,9 @@
                 th Verificación 
             tbody
               tr(style="background-color: #EAF1FA")
-                td Interruptor de puerta (en modo COOK) 
+                td Interruptor de puerta (en modo #[em COOK]) 
                 td Detecta si la puerta está abierta y detiene automáticamente los quemadores y el ventilador. 
-                td Abrir la puerta durante el funcionamiento en modo COOK y comprobar que el ventilador y los quemadores se detengan. 
+                td Abrir la puerta durante el funcionamiento en modo #[em COOK] y comprobar que el ventilador y los quemadores se detengan. 
               tr
                 td Termostato de seguridad (límite de temperatura) 
                 td Corta el suministro de gas o la resistencia si la temperatura supera el límite seguro (Ej. 300°C). 

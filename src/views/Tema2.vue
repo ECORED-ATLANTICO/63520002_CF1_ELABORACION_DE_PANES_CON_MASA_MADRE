@@ -58,13 +58,13 @@
               p.mb-0 Obligatorio cuando el manipulador presente tos o estornudos, o cuando las políticas del establecimiento así lo establezcan.
             div.py-lg-3
               h4 Calzado: 
-              p.mb-0 Cerrado como amante antideslizante y de uso exclusivo para el área de producción. Se recomienda que cuente con punta de acero en zonas donde exista riesgo por manipulación de cargas.
+              p.mb-0 Cerrado con suela antideslizante y de uso exclusivo para el área de producción. Se recomienda que cuente con punta de acero en zonas donde exista riesgo por manipulación de cargas. 
             div.py-lg-3
               h4 Guantes: 
               p.mb-0 De nitrilo o látex sin polvo, destinados a tareas específicas como la manipulación de panes horneados o rellenos. Su uso no reemplaza el lavado adecuado de las manos.
             div.py-lg-3
               h4 Elementos no permitidos: 
-              p.mb-0 Joyas (anillos, aretes, cadenas, pulseras, piercing), relojes, uñas postizas u otros accesorios que puedan convertirse en fuentes de contaminación.
+              p.mb-0 Joyas (anillos, aretes, cadenas, pulseras, #[em piercing]), relojes, uñas postizas u otros accesorios que puedan convertirse en fuentes de contaminación.
             div.py-lg-3
               h4 Guantes de caucho: 
               p.mb-0 Protegen las manos durante la manipulación de detergentes y desinfectantes, evitando el contacto directo con sustancias químicas.
@@ -110,6 +110,7 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 El lavado de manos es el paso más importante y efectivo para prevenir la contaminación cruzada. Debe realizarse con agua potable, jabón líquido antiséptico (preferiblemente con dispensador de codo) y secado con toallas de papel desechables. Debe hacerse de manera rutinaria y ante determinada situación, es por eso por lo que existen los llamados momentos obligatorios: 
 
+    p.mb-4 #[strong Momentos obligatorios de lavado de manos:]
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-9

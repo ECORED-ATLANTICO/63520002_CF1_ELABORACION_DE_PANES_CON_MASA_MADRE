@@ -17,6 +17,8 @@
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 4.1 Tipos, características y materiales permitidos y prohibidos
 
+    p.mb-4 Los utensilios son herramientas manuales utilizadas en la transformación de los alimentos. En panadería de masa madre, los más comunes son: 
+
     .bg-slider.p-3.p-sm-4.mb-4
       SlyderA(tipo="b").p-3.p-lg-4.tarjeta.tarjeta--blanca
         .row.justify-content-center.align-items-center
@@ -43,7 +45,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-7.col-xl-6
             h4 Canastas de fermentación (#[em bannetons])
-            p.mb-4.mb-lg-0 De madera contrachapada o metal. Las de metal son más higiénicas.
+            p.mb-4.mb-lg-0 De mimbre o plástico. Las de plástico son más fáciles de limpiar.
           .col-sm-8.col-lg-4
             figure
               img(src="@/assets/curso/tema4/6.png", alt="")
@@ -63,7 +65,7 @@
         .col-lg-10
           p.mb-0 Los utensilios utilizados durante la elaboración de panes con masa madre deben seleccionarse de acuerdo con criterios que garanticen la inocuidad de los alimentos y faciliten su limpieza y desinfección. El material con el que están fabricados influye directamente en la seguridad del proceso, por lo que es importante identificar cuáles son adecuados, cuáles tienen un uso restringido y cuáles deben evitarse.
 
-    p.mb-5 A continuación, se presenta una tabla que enumera los criterios para selección de los utensilios
+    p.mb-5 A continuación, se presenta una tabla que enumera los criterios para selección de los utensilios.
 
     .row.justify-content-center
       .col-xl-10
@@ -211,7 +213,7 @@
                 td Registrar el fabricante o distribuidor para facilitar la reposición y el seguimiento de la garantía. 
                 td PanEquipos S.A.S. 
 
-
+    p.mb-5 Es importante resaltar que la información consignada en una ficha técnica pude variar según el tipo de utensilios, las características del proceso y los procedimientos establecidos por cada panadería.
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo

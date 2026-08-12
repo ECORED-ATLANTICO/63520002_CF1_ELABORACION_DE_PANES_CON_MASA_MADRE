@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Generalidades de las Buenas Prácticas de Manufactura (BPM).
+      h1 Generalidades de las Buenas Prácticas de Manufactura (BPM)
 
     img(src="@/assets/curso/tema1/1.png", alt="" data-aos="fade-up")
     .row.justify-content-center.z-2

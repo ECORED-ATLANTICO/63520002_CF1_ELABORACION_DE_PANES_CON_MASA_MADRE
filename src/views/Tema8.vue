@@ -38,10 +38,12 @@
     #t_8_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 8.2 Formatos de registro (limpieza, soluciones, higiene, plagas)
 
+    p.mb-4.mb-lg-5 El registro de las actividades de limpieza y desinfección permite documentar la ejecución de los procedimientos de saneamiento, verificar su cumplimiento y mantener la trazabilidad de las acciones realizadas sobre los equipos utilizados en la elaboración de panes con masa madre. A continuación, se presenta un ejemplo de formato para este registro. 
+
     .titulo-sexto.color-acento-contenido.mb-4
       h5 Tabla 15.
       span Formato de limpieza y desinfección diaria de equipos
-    .tabla-a.color-secundario.tabla-a--text-left.mb-5
+    .tabla-a.color-secundario.tabla-a--text-left.mb-5.tabla-a--ancha
       table
         caption Nota. SENA, (2026).
         thead
@@ -56,7 +58,7 @@
             th Verifica supervisor
         tbody
           tr(style="background-color: #EAF1FA")
-            td 15/0/2026 
+            td 15/03/2026 
             td Amasadora industrial 
             td 10:00 a 10:20 
             td L, D 
@@ -79,7 +81,7 @@
     .titulo-sexto.color-acento-contenido.mb-4
       h5 Tabla 16.
       span Formato de preparación de soluciones desinfectantes
-    .tabla-a.color-secundario.tabla-a--text-left.mb-5
+    .tabla-a.color-secundario.tabla-a--text-left.mb-5.tabla-a--ancha
       table
         caption Nota. SENA, (2026).
         thead
@@ -117,7 +119,7 @@
     .titulo-sexto.color-acento-contenido.mb-4
       h5 Tabla 17.
       span Formato de inspección de higiene del personal (inspección diaria aleatoria)
-    .tabla-a.color-secundario.tabla-a--text-left.mb-5
+    .tabla-a.color-secundario.tabla-a--text-left.mb-5.tabla-a--ancha
       table
         caption Nota. SENA, (2026).
         thead
@@ -152,7 +154,7 @@
     .titulo-sexto.color-acento-contenido.mb-4
       h5 Tabla 18.
       span Formato de control de plagas (inspección semanal)
-    .tabla-a.color-secundario.tabla-a--text-left
+    .tabla-a.color-secundario.tabla-a--text-left.tabla-a--ancha
       table
         caption Nota. SENA, (2026).
         thead

@@ -49,25 +49,25 @@
             tbody
               tr(style="background-color: #EAF1FA")
                 td Cabellos, pestañas
-                td Uso de gorro que cubra completamente el cabello y, cuando aplique, cubre barba
+                td Uso de gorro que cubra completamente el cabello y, cuando aplique, cubre barba.
               tr
                 td Fragmentos de vidrio (envases rotos)
-                td Prohibición del uso de recipientes de vidrio en el área de producción y retiro inmediato de los elementos rotos
+                td Prohibición del uso de recipientes de vidrio en el área de producción y retiro inmediato de los elementos rotos.
               tr(style="background-color: #EAF1FA")
                 td Virutas de metal (raspadores desgastados, mallas de harina)
-                td Mantenimiento preventivo e inspección periódica de equipos y utensilios; reemplazo de los elementos deteriorados
+                td Mantenimiento preventivo e inspección periódica de equipos y utensilios; reemplazo de los elementos deteriorados.
               tr
                 td Piedras o terrones duros (presentes en harina de baja calidad)
-                td Inspección y tamizado de la harina antes de su utilización, además de la adquisición de materias primas de proveedores confiables
+                td Inspección y tamizado de la harina antes de su utilización, además de la adquisición de materias primas de proveedores confiables.
               tr(style="background-color: #EAF1FA")
                 td Plásticos (fragmentos de guantes, envolturas)
-                td Manipulación adecuada de los empaques, revisión del estado de los guantes y retiro de residuos plásticos antes de iniciar la producción
+                td Manipulación adecuada de los empaques, revisión del estado de los guantes y retiro de residuos plásticos antes de iniciar la producción.
               tr
                 td Insectos o partes de insectos
-                td Implementación de un programa de control integrado de plagas y protección de las materias primas en recipientes cerrados
+                td Implementación de un programa de control integrado de plagas y protección de las materias primas en recipientes cerrados.
               tr(style="background-color: #EAF1FA")
                 td Madera (astillas de paletas o canastas de fermentación dañadas)
-                td Inspección periódica de los utensilios de madera y reemplazo de aquellos que presenten grietas, astillas o deterioro
+                td Inspección periódica de los utensilios de madera y reemplazo de aquellos que presenten grietas, astillas o deterioro.
 
     .bg-primario-p5.rounded-4.mb-4.mb-lg-5
       .row.justify-content-center.align-items-center
@@ -148,7 +148,7 @@
           span Microorganismos relevantes en panadería de masa madre
         .tabla-a.color-secundario.tabla-a--text-left.mb-5
           table
-            caption Nota. Adaptado de Tornado Amasadora HS20Z: ficha técnica, (2026). 
+            caption Nota. SENA, (2026).
             thead
               tr(style="background-color: #E7F2E7")
                 th Microorganismo 
@@ -308,21 +308,21 @@
         .crd_hover_txt(data-aos="flip-left").tarjeta
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema3/16.png", alt="alt")
-          .crd_hover_txt--body.px-0.crd_hover_txt--body--custom
-            h4.mb-0 Utensilios para pan horneado
-            h4.mb-4 Color de identificación: rojo
-            p.mb-0.px-4 Se utilizan únicamente para manipular panes ya horneados o productos listos para el consumo. No deben emplearse nuevamente sobre masas crudas.
-    
-      .col-sm-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left").tarjeta
-          .crd_hover_txt--img
-            figure
               img(src="@/assets/curso/tema3/17.png", alt="alt")
           .crd_hover_txt--body.px-0.crd_hover_txt--body--custom
             h4.mb-0 Utensilios para masas crudas
             h4.mb-4 Color de identificación: verde
             p.mb-0.px-4 Se destinan exclusivamente a la manipulación de masas antes del horneado. Su uso exclusivo evita que microorganismos presentes en materias primas entren en contacto con productos listos para el consumo.
+
+      .col-sm-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left").tarjeta
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema3/16.png", alt="alt")
+          .crd_hover_txt--body.px-0.crd_hover_txt--body--custom
+            h4.mb-0 Utensilios para pan horneado
+            h4.mb-4 Color de identificación: rojo
+            p.mb-0.px-4 Se utilizan únicamente para manipular panes ya horneados o productos listos para el consumo. No deben emplearse nuevamente sobre masas crudas.
 
       .col-sm-8.col-lg-6.col-xl-4
         .crd_hover_txt(data-aos="flip-left").tarjeta
@@ -346,12 +346,9 @@
               p.mb-0 La codificación por colores puede variar entre establecimientos. Lo importante es que cada empresa defina un sistema de identificación, lo documente y garantice que todo el personal lo conozca y lo aplique correctamente.
 
     .p-4.py-3.bg-secundario-s5.rounded-4.mb-4
-      p.mb-0.text-center Lo invitamos a consultar el siguiente video para profundizar sobre los procedimientos de limpieza, desinfección y registro en la panadería de masa madre
+      p.mb-0.text-center Lo invitamos a consultar el siguiente pódcast para profundizar sobre los procedimientos de limpieza, desinfección y registro en la panadería de masa madre. 
 
-    figure.mb-5
-      .video.mb-2
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+    <!-- PODCAST-->
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
@@ -398,6 +395,9 @@
             div.py-lg-3
               h4 Enfriamiento
               p.mb-0 Deje enfriar el pan sobre rejillas limpias hasta alcanzar la temperatura ambiente antes de empacarlo.
+            div.py-lg-3
+              h4 Empaque y almacenamiento
+              p.mb-0 Empaque el producto en materiales adecuados y almacénelo en un lugar limpio, seco y protegido hasta su distribución.
 
     .bg-secundario-s5.rounded-4.p-4.py-xl-1
       .row.justify-content-center.align-items-center

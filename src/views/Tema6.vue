@@ -36,8 +36,6 @@
     #t_6_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 6.2 Concentraciones, diluciones y tiempos de contacto
 
-    p.mb-4.mb-lg-5 La preparación y el almacenamiento de los agentes de limpieza y desinfección deben realizarse de acuerdo con las instrucciones del fabricante y las Buenas Prácticas de Manufactura (BPM). A continuación, se presentan las recomendaciones específicas para cada tipo de agente.
-
     .row.justify-content-center.align-items-center
       .col-lg-9
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg-contenido-a20")
@@ -47,7 +45,7 @@
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/tema6/3.png", alt="" data-aos="zoom-in-down")
       .col-lg-8
-        p El componente formativo CoordinarLa eficacia de los procesos de limpieza y desinfección depende no solo de la selección del agente químico, sino también de su preparación y aplicación correctas. Para garantizar los resultados esperados, es necesario respetar las concentraciones recomendadas, realizar adecuadamente las diluciones y cumplir los tiempos de contacto establecidos por el fabricante, evitando tanto la pérdida de eficacia como los riesgos para la inocuidad de los alimentos y la seguridad del manipulador.
+        p La eficacia de los procesos de limpieza y desinfección depende no solo de la selección del agente químico, sino también de su preparación y aplicación correctas. Para garantizar los resultados esperados, es necesario respetar las concentraciones recomendadas, realizar adecuadamente las diluciones y cumplir los tiempos de contacto establecidos por el fabricante, evitando tanto la pérdida de eficacia como los riesgos para la inocuidad de los alimentos y la seguridad del manipulador. 
         .bg-secundario-s5.p-4.py-3.rounded-3
           p.mb-0 Para preparar soluciones desinfectantes con la concentración requerida, puede emplearse la siguiente fórmula:
 
