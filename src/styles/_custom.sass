@@ -51,11 +51,10 @@ figcaption, table caption
   background-color: $color-primario-p10 !important
   
 .banner-principal .tarjeta
-  background-image: url("../assets/curso/portada/fondo-banner-principal-xs.png") !important
-  @media screen and (min-width: $bp-min-sm)
+  @media screen and (max-width: $bp-max-md)
     background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
-  @media screen and (min-width: $bp-min-lg)
-    background-image: url("../assets/curso/portada/fondo-banner-principal.png") !important
+  @media screen and (max-width: $bp-max-xs)
+    background-image: url("../assets/curso/portada/fondo-banner-principal-xs.png") !important
 
 .text-end 
     text-align: left !important

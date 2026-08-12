@@ -170,9 +170,9 @@
 
 
 
-    .row.justify-content-center
+    .row.justify-content-center.mb-4.mb-lg-5
       .col-xl-10
-        .tarjeta.bg-contenido-a5.p-4.mb-5
+        .tarjeta.bg-contenido-a5.p-4
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1.d-none.d-sm-block
               img(src="@/assets/curso/tema7/11.svg")

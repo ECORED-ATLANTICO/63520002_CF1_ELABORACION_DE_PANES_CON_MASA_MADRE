@@ -372,7 +372,7 @@
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/tema3/21.png", alt="" data-aos="zoom-in-down")
       .col-lg-7
-        .bg-contenido-a5.p-4.mb-4
+        .bg-contenido-a5.p-4
           SlyderA(tipo="b").p-3.p-lg-4.tarjeta.tarjeta--blanca
             div.py-lg-3
               h4 Recepción y almacenamiento de materias primas

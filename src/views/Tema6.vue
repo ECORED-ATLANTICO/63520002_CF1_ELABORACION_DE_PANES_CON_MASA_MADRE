@@ -50,22 +50,22 @@
           p.mb-0 Para preparar soluciones desinfectantes con la concentración requerida, puede emplearse la siguiente fórmula:
 
     .row.justify-content-center.align-items-stretch.mb-4.mb-lg-5
-      .col-lg-6
+      .col-lg-6.mb-4.mb-lg-0
         .bg-primario-p10.p-4.mb-4.mb-lg-0.h-100.py-xl-5
           .row.justify-content-center.align-items-center
-            .col-sm-4.col-lg-2
+            .col-4.col-sm-3.col-lg-3.col-xl-2
               figure
                 img.mb-4.mb-lg-0(src="@/assets/curso/tema6/4.svg", alt="" data-aos="zoom-in-down")
-            .col-lg-10
+            .col-lg-9.col-xl-10
               h4 Cálculo de diluciones
               p.mb-0 Volumen de producto concentrado (ml) = (Concentración deseada (ppm) × Volumen de solución (L)) / (Concentración del producto (ppm) / 1000).
       .col-lg-6
         .bg-primario-p10.p-4.mb-4.mb-lg-0.py-xl-5
           .row.justify-content-center.align-items-center
-            .col-sm-4.col-lg-2
+            .col-4.col-sm-3.col-lg-3.col-xl-2
               figure
                 img.mb-4.mb-lg-0(src="@/assets/curso/tema6/5.svg", alt="" data-aos="zoom-in-down")
-            .col-lg-10
+            .col-lg-9.col-xl-10
               h4 Ejemplo de aplicación
               p.mb-0 Para preparar 10 L de solución de hipoclorito de sodio a 100 ppm a partir de un producto comercial al 5 % (50 000 ppm), se realiza el siguiente cálculo:
               p.mb-0 (100 x 10) / (50,000 / 1000) = 1000 / 50 = 20 ml.
@@ -138,19 +138,19 @@
     
     AcordionA(tipo="a" clase-tarjeta="tarjeta bg-contenido-a20")
       .row.align-items-center.justify-content-center(titulo="Almacenamiento de productos químicos")
-        .col-lg-7.col-xl-6
+        .col-lg-7
           p.mb-4.mb-lg-0 Los detergentes y desinfectantes deben almacenarse en un área exclusiva, separada de los alimentos, materias primas y materiales de empaque. Este espacio debe contar con ventilación adecuada, señalización de seguridad, estantes resistentes a derrames y sistemas de contención cuando sea necesario. Los productos deben conservarse en sus envases originales o en recipientes debidamente identificados, evitando el uso de envases destinados a bebidas o alimentos.
         .col-lg-4
           figure
             img(src="@/assets/curso/tema6/7.png", alt="" data-aos="zoom-in-down")
       .row.align-items-center.justify-content-center(titulo="Fichas de datos de seguridad (SDS – <em>Safety Data Sheet</em>)")
-        .col-lg-7.col-xl-6
+        .col-lg-7
           p.mb-4.mb-lg-0 Cada producto químico debe disponer de su ficha de datos de seguridad, la cual contiene información sobre su identificación, composición, peligros, medidas de primeros auxilios, control de incendios, procedimientos en caso de derrames, condiciones de manipulación y almacenamiento, controles de exposición, estabilidad y reactividad, entre otros aspectos relevantes para su uso seguro.
         .col-lg-4
           figure
             img(src="@/assets/curso/tema6/8.png", alt="" data-aos="zoom-in-down")
       .row.align-items-center.justify-content-center(titulo="Precauciones durante la manipulación de productos químicos")
-        .col-lg-7
+        .col-lg-8
           p Mezclas incompatibles: nunca mezcle hipoclorito de sodio con ácidos o con otros productos químicos incompatibles, ya que pueden liberarse gases tóxicos o producirse reacciones peligrosas. De igual manera, evite combinar sustancias ácidas y alcalinas, debido al riesgo de reacciones exotérmicas.
           p Actuación en caso de derrame: aísle y ventile el área afectada, utilice los elementos de protección personal requeridos, contenga el derrame con material absorbente inerte, disponga el residuo en un recipiente debidamente identificado y limpie la superficie siguiendo los procedimientos establecidos por el establecimiento. Finalmente, registre el incidente conforme a los protocolos internos.
           p.mb-4.mb-lg-0 Elementos de protección personal (EPP): durante la manipulación de productos químicos concentrados deben utilizarse guantes de nitrilo o neopreno, gafas de seguridad con protección lateral, delantal impermeable, botas de caucho y, cuando las condiciones de exposición lo requieran, protección respiratoria adecuada de acuerdo con las recomendaciones del fabricante.
