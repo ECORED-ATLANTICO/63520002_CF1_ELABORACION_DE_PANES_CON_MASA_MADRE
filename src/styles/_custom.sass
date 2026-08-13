@@ -111,13 +111,13 @@ figcaption, table caption
   width: 105px
   margin: 0 auto
 
-  .imgw-120
-    width: 120px
-    margin: 0 auto
+.imgw-120
+  width: 120px
+  margin: 0 auto
 
-  .imgw-160
-    width: 160px
-    margin: 0 auto
+.imgw-160
+  width: 160px
+  margin: 0 auto
 
 //GENERALES
 
@@ -198,6 +198,14 @@ figcaption, table caption
   background-position: center
   background-repeat: no-repeat
   border-radius: 20px
+
+.bg-audio
+  background-color: $color-primario-p5
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+  @media (min-width: $bp-min-xl)
+    background-image: url("../assets/curso/common/bg-audio.png") !important
 
 .acordion
   &__accion__btn--a
@@ -339,3 +347,9 @@ ul.checklist
     position: absolute
   @media (min-width: $bp-min-xl)
     top: -80px
+
+.tarjeta-audio
+  background-color: $white
+  
+.accesibilidad
+  z-index: 3

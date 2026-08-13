@@ -294,7 +294,7 @@
           p.mb-0 #[strong Recomendación de seguridad]: antes de iniciar, verifique que no existan daños en el cable, el tomacorriente, las conexiones o la instalación de gas.
         .col-sm-4.col-lg-2
           figure
-            img.imgw-120(src='@/assets/curso/tema5/10.png', alt='')
+            img.imgw-160(src='@/assets/curso/tema5/10.png', alt='')
 
       .row.justify-content-center.align-items-center
         .col-sm-2.mb-4.mb-lg-0
@@ -336,7 +336,7 @@
           p.mb-0 #[strong No utilice]: chorros de agua, elementos abrasivos, productos ácidos ni soda cáustica.
         .col-sm-4.col-lg-2
           figure
-            img.imgw-105(src='@/assets/curso/tema5/14.png', alt='')
+            img.imgw-120(src='@/assets/curso/tema5/14.png', alt='')
 
     separador
     #t_5_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")

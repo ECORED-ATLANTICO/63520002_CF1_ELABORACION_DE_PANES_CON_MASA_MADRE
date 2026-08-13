@@ -42,7 +42,7 @@
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/tema2/3.png", alt="" data-aos="zoom-in-down")
       .col-lg-7
-        .bg-contenido-a5.p-3.p-lg-4.mb-4
+        .bg-contenido-a5.p-3.p-lg-4
           SlyderA(tipo="b").p-3.p-lg-4.tarjeta.tarjeta--blanca.slyder-a--shrink
             div.py-lg-3
               h4 Chaquetín o delantal: 

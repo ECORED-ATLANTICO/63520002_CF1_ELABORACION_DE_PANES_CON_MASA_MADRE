@@ -142,13 +142,13 @@
           p.mb-4.mb-lg-0 Los detergentes y desinfectantes deben almacenarse en un área exclusiva, separada de los alimentos, materias primas y materiales de empaque. Este espacio debe contar con ventilación adecuada, señalización de seguridad, estantes resistentes a derrames y sistemas de contención cuando sea necesario. Los productos deben conservarse en sus envases originales o en recipientes debidamente identificados, evitando el uso de envases destinados a bebidas o alimentos.
         .col-lg-4
           figure
-            img(src="@/assets/curso/tema6/7.png", alt="" data-aos="zoom-in-down")
+            img(src="@/assets/curso/tema6/7.png", alt="")
       .row.align-items-center.justify-content-center(titulo="Fichas de datos de seguridad (SDS – <em>Safety Data Sheet</em>)")
         .col-lg-7
           p.mb-4.mb-lg-0 Cada producto químico debe disponer de su ficha de datos de seguridad, la cual contiene información sobre su identificación, composición, peligros, medidas de primeros auxilios, control de incendios, procedimientos en caso de derrames, condiciones de manipulación y almacenamiento, controles de exposición, estabilidad y reactividad, entre otros aspectos relevantes para su uso seguro.
         .col-lg-4
           figure
-            img(src="@/assets/curso/tema6/8.png", alt="" data-aos="zoom-in-down")
+            img(src="@/assets/curso/tema6/8.png", alt="")
       .row.align-items-center.justify-content-center(titulo="Precauciones durante la manipulación de productos químicos")
         .col-lg-8
           p Mezclas incompatibles: nunca mezcle hipoclorito de sodio con ácidos o con otros productos químicos incompatibles, ya que pueden liberarse gases tóxicos o producirse reacciones peligrosas. De igual manera, evite combinar sustancias ácidas y alcalinas, debido al riesgo de reacciones exotérmicas.
@@ -157,7 +157,7 @@
 
         .col-lg-3
           figure
-            img(src="@/assets/curso/tema6/9.png", alt="" data-aos="zoom-in-down")
+            img(src="@/assets/curso/tema6/9.png", alt="")
 
 
 </template>

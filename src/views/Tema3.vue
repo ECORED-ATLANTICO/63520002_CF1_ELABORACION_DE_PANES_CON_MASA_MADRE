@@ -334,21 +334,33 @@
             h4.mb-4 Color de identificación: azul
             p.mb-0.px-4 Corresponde a escobas, cepillos y demás implementos destinados a la limpieza. Estos elementos nunca deben utilizarse para manipular alimentos.
 
-    .row.justify-content-center.mb-4.mb-lg-5
-      .col-xl-10
-        .bg-primario-p20.rounded-4.p-4
+
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
+      .col-lg-6.col-xl-5
+        .bg-primario-p20.rounded-4.p-4.mb-3
           .row.justify-content-center.align-items-center
-            .col-3.col-lg-2
+            .col-3
               figure
                 img.imgw-80.mb-4.mb-lg-0(src="@/assets/curso/tema3/19.svg", alt="")
-            .col-lg-10
+            .col-lg-9
               h5 Importante: 
               p.mb-0 La codificación por colores puede variar entre establecimientos. Lo importante es que cada empresa defina un sistema de identificación, lo documente y garantice que todo el personal lo conozca y lo aplique correctamente.
+        .p-4.py-3.bg-secundario-s5.rounded-4.mb-4.mb-lg-0
+          p.mb-0.text-center Lo invitamos a consultar el siguiente pódcast para profundizar sobre los procedimientos de limpieza, desinfección y registro en la panadería de masa madre. 
+      .col-lg-6.col-xl-7.bg-audio.rounded-4.p-4
+        .row.align-items-center.justify-content-center
+          .col-4.col-sm-3
+            figure.pt-3
+              img.w-195.mb-4.mb-lg-0(src="@/assets/curso/common/mic.png", alt="alt")
+          .col-sm-8.col-lg-8
+            h5 ¿Sabías qué?
+            p Lo invitamos al siguiente pódcast:
+            TarjetaAudio.mb-3(
+              texto="“La idea de negocio como base del desarrollo empresarial”"
+              :audio="require_src('@/assets/actividad/audio/fail.mp3')"
+              @audio-hover="mostrarIndicadorTarjetaAudio = false"
+            )
 
-    .p-4.py-3.bg-secundario-s5.rounded-4.mb-4
-      p.mb-0.text-center Lo invitamos a consultar el siguiente pódcast para profundizar sobre los procedimientos de limpieza, desinfección y registro en la panadería de masa madre. 
-
-    <!-- PODCAST-->
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
