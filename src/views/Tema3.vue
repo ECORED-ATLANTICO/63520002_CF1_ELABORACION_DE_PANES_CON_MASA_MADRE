@@ -355,12 +355,12 @@
           .col-sm-8.col-lg-8
             h5 ¿Sabías qué?
             p Lo invitamos al siguiente pódcast:
-            TarjetaAudio.mb-3(
-              texto="“La idea de negocio como base del desarrollo empresarial”"
-              :audio="require_src('@/assets/actividad/audio/fail.mp3')"
+            TarjetaAudio.mb-3.color-terciario(
+              texto="Procedimientos de limpieza, desinfección y registro en la panadería de masa madre"
+              tiempo
+              :audio="require_src('@/assets/curso/audio/podcast-2.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
-
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo

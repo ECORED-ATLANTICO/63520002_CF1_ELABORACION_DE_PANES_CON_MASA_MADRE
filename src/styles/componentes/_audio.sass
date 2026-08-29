@@ -47,6 +47,13 @@
         background-color: color.adjust($color-acento-botones, $lightness: -10%)
     .spinner-border
       border-color: $color-acento-botones
+  &.color-terciario
+    .audio__btn
+      background-color: $color-terciario
+      &:hover
+        background-color: $color-terciario-t20
+    .spinner-border
+      border-color: $color-terciario-t20
 
 .tarjeta-audio
   border: 2px solid
@@ -150,3 +157,14 @@
           background-image: linear-gradient($color-acento-botones, $color-acento-botones)
     .tarjeta-audio__tiempo
       color: $color-acento-botones
+
+  &.color-terciario
+    border-color: $color-terciario
+    .tarjeta-audio__texto
+      color: $color-terciario
+    .tarjeta-audio__input
+      input[type=range]
+        background: rgba($color-terciario, 0.2)
+        &::-webkit-slider-runnable-track
+          background: rgba($color-terciario, 0.2)
+        &::-webkit-slider-thumb
