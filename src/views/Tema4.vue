@@ -37,6 +37,13 @@
               img(src="@/assets/curso/tema4/4.png", alt="")
         .row.justify-content-center.align-items-center
           .col-lg-7.col-xl-6
+            h4 Pinceles
+            p.mb-4.mb-lg-0 Para aplicar harina o agua. De silicona (fácil limpieza) en lugar de cerdas naturales.
+          .col-sm-8.col-lg-4
+            figure
+              img(src="@/assets/curso/tema4/13.png", alt="")
+        .row.justify-content-center.align-items-center
+          .col-lg-7.col-xl-6
             h4 Palas de horno (#[em peles])
             p.mb-4.mb-lg-0 De madera contrachapada o metal. Las de metal son más higiénicas.
           .col-sm-8.col-lg-4

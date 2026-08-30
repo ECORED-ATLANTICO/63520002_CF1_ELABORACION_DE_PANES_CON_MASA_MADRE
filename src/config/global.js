@@ -36,7 +36,7 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Generalidades de las Buenas Prácticas de Manufactura (BPM) ',
+        titulo: 'Generalidades de las Buenas Prácticas de Manufactura (BPM)',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -257,7 +257,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/63520002_CF1_DU.zip',
+        download: 'downloads/63520002_CF01_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -450,11 +450,11 @@ export default {
       autores: [
         {
           nombre: 'Yina Paola Castro Zarate',
-          cargo: 'Experto temático',
+          cargo: 'Experta temática',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Carolina Coca Salazar',
+          nombre: 'María Fernanda Morales Angulo',
           cargo: 'Evaluadora instruccional',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
@@ -469,8 +469,8 @@ export default {
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
+          nombre: 'Andrés Felipe Herrera Roldan',
+          cargo: 'Diseñador de contenidos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
@@ -495,17 +495,17 @@ export default {
       autores: [
         {
           nombre: 'Luz Karime Amaya Cabra',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Laura Daniela Burgos Rueda',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Karine Isabel Ospino Fritz',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {

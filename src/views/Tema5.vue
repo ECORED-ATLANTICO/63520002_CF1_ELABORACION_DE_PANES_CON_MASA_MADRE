@@ -17,8 +17,6 @@
     #t_5_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 5.1 Tipos de equipos (amasadoras, hornos, cámaras y otros)
 
-    p.mb-4.mb-lg-5 La elaboración de panes con masa madre requiere equipos que faciliten las diferentes etapas del proceso productivo, desde el mezclado de los ingredientes hasta la conservación del producto terminado. La selección del equipo depende del volumen de producción, las características de la masa y el nivel de automatización del establecimiento. Además de mejorar la eficiencia, el uso adecuado de estos equipos contribuye a mantener la calidad del producto, optimizar los tiempos de trabajo y garantizar condiciones seguras para el operario.  
-
     .bloque-texto-g.color-terciario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require_src('@/assets/curso/tema5/2.png')})`}"
@@ -104,15 +102,23 @@
               tr
                 td Capacidad 
                 td
-                  ul
-                    li 8 kg de harina (con 60 % de humedad en la masa) 
-                    li 4 kg de harina (con 40 % de humedad en la masa) 
+                  ul.lista-ul
+                    li.mb-0
+                      i.lista-ul__vineta
+                      span 8 kg de harina (con 60 % de humedad en la masa) 
+                    li.mb-0
+                      i.lista-ul__vineta
+                      span 4 kg de harina (con 40 % de humedad en la masa) 
               tr(style="background-color: #EAF1FA")
                 td Velocidades 
                 td
-                  ul
-                    li Gancho: 150 rpm (baja) / 200 rpm (alta) 
-                    li Tazón: 15 rpm (baja) / 20 rpm (alta) 
+                  ul.lista-ul
+                    li.mb-0
+                      i.lista-ul__vineta
+                      span Gancho: 150 rpm (baja) / 200 rpm (alta) 
+                    li.mb-0
+                      i.lista-ul__vineta
+                      span Tazón: 15 rpm (baja) / 20 rpm (alta) 
               tr
                 td Tazón (bowl) 
                 td 1 tazón giratorio de 20 litros de capacidad 

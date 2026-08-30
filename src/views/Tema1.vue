@@ -15,7 +15,7 @@
       
     separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 1.1 Concepto e importancia de las BPM en la elaboración de pan con masa madre
+      h2 1.1 Concepto e importancia de las BPM en la elaboración de panes con masa madre
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-lg-8
@@ -60,7 +60,7 @@
 
     .row.justify-content-center.align-items-center.mb-4.z-2
       .col-lg-7
-        p La inocuidad no es lo mismo que calidad nutricional o sensorial. Un pan puede ser delicioso, con buena corteza y miga, pero no ser inocuo si contiene patógenos como Bacillus cereus o toxinas. La masa madre, debido a su pH ácido (generalmente entre 3.8 y 4.5), inhibe muchos microorganismos patógenos, pero no todos. Por ejemplo, Bacillus cereus forma esporas resistentes al calor y al ácido, y puede sobrevivir en harinas y masas mal refrigeradas. Por ello, las BPM son irremplazables: el control de temperaturas, la limpieza de superficies y la higiene personal son barreras adicionales que garantizan la inocuidad incluso cuando el pH no es lo suficientemente bajo.
+        p La inocuidad no es lo mismo que calidad nutricional o sensorial. Un pan puede ser delicioso, con buena corteza y miga, pero no ser inocuo si contiene patógenos como <em>Bacillus cereus</em> o toxinas. La masa madre, debido a su pH ácido (generalmente entre 3.8 y 4.5), inhibe muchos microorganismos patógenos, pero no todos. Por ejemplo, <em>Bacillus cereus</em> forma esporas resistentes al calor y al ácido, y puede sobrevivir en harinas y masas mal refrigeradas. Por ello, las BPM son irremplazables: el control de temperaturas, la limpieza de superficies y la higiene personal son barreras adicionales que garantizan la inocuidad incluso cuando el pH no es lo suficientemente bajo.
         .bg-terciario-t5.p-4.rounded-3.mb-4.mb-lg-0
           p.mb-0 Un ejemplo concreto: una masa madre activa con pH 4.0 es segura para la mayoría de bacterias patógenas, pero si el panadero no se lava las manos después de ir al baño y contamina la masa con Escherichia coli, esta bacteria puede sobrevivir en el ambiente ácido el tiempo suficiente para llegar al consumidor si el pan no se hornea a temperatura interna adecuada. Las BPM evitan este riesgo desde el origen.
       .col-sm-10.col-lg-5
@@ -112,17 +112,17 @@
           img.mb-4.mb-lg-0(src="@/assets/curso/tema1/5.png", alt="" data-aos="zoom-in-down")
       .col-lg-8
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg-contenido-a20")
-          div(titulo="Ley 9 de 1979 Código Sanitario Nacional")
+          div(titulo="Ley 9 de 1979 - Código Sanitario Nacional")
             p.mb-0.ps-lg-5 Es la base de la legislación sanitaria para la producción de alimentos en Colombia. Define las condiciones de higiene para materias primas, establecimientos, transporte y comercialización, además de las acciones de inspección, vigilancia y control.
-          div(titulo="Decreto 1944 de 1996 Fortificación de la harina de trigo")
+          div(titulo="Decreto 1944 de 1996 - Fortificación de la harina de trigo")
             p.mb-0.ps-lg-5 Establece que la harina de trigo utilizada en Colombia debe estar fortificada con hierro y vitaminas del complejo B. El productor debe verificar que sus proveedores certifiquen este cumplimiento.
-          div(titulo="Resolución 2674 de 2013 Buenas Prácticas de Manufactura (BPM)")
+          div(titulo="Resolución 2674 de 2013 - Buenas Prácticas de Manufactura (BPM)")
             p.mb-0.ps-lg-5 Define los requisitos para el personal manipulador, la infraestructura y el Plan de Saneamiento Básico. En la elaboración de masa madre es fundamental controlar tiempos y temperaturas para garantizar la inocuidad del producto.
-          div(titulo="Resoluciones 810 de 2021 y 2492 de 2022 Etiquetado nutricional")
+          div(titulo="Resoluciones 810 de 2021 y 2492 de 2022 - Etiquetado nutricional")
             p.mb-0.ps-lg-5 Regulan la información nutricional y los sellos frontales de advertencia de los alimentos empacados, facilitando al consumidor una elección informada.
-          div(titulo="Resolución 5109 de 2005 Rotulado general de alimentos")
+          div(titulo="Resolución 5109 de 2005 - Rotulado general de alimentos")
             p.mb-0.ps-lg-5 Establece la información obligatoria del empaque, como ingredientes, alérgenos, lote, fecha de vencimiento y condiciones de conservación.
-          div(titulo="NTC 1363 Norma Técnica Colombiana para panadería")
+          div(titulo="NTC 1363 - Norma Técnica Colombiana para panadería")
             p.mb-0.ps-lg-5 Proporciona parámetros de calidad físico-químicos y microbiológicos para los productos de panadería, constituyendo una referencia técnica para mejorar los procesos productivos.
 
     p.mb-4 La elaboración de panes con masa madre requiere el cumplimiento integral del marco normativo colombiano para garantizar la inocuidad, la calidad del producto y la protección del consumidor durante todas las etapas de producción y comercialización.

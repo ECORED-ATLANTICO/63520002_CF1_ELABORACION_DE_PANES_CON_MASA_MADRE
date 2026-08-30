@@ -19,7 +19,7 @@
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-lg-8
-        p La contaminación de los alimentos es la presencia en ellos de cualquier agente físico, químico o biológico que pueda provocar un riesgo para la salud del consumidor o una alteración de la calidad del producto. Puede ocurrir en cualquier etapa: desde la materia prima (harina con esporas de Bacillus cereus), durante el procesamiento (manos sucias), o después del horneado (moho por almacenamiento húmedo).
+        p La contaminación de los alimentos es la presencia en ellos de cualquier agente físico, químico o biológico que pueda provocar un riesgo para la salud del consumidor o una alteración de la calidad del producto. Puede ocurrir en cualquier etapa: desde la materia prima (harina con esporas de <em>Bacillus cereus</em>), durante el procesamiento (manos sucias), o después del horneado (moho por almacenamiento húmedo).
         .cajon.color-terciario.p-4.mb-4.mb-lg-0
           p.mb-0 Existen variedades de tipos de contaminaciones, estas pueden en peligro la salud, tanto de los trabajadores como de los consumidores, es en medida que las BPM, deben aplicarse para un riguroso proceso dentro de las instalaciones, lo que ayuda a la prevención de este tipo de contaminaciones.
       .col-sm-8.col-lg-4
@@ -41,7 +41,7 @@
           span Contaminación física: fuentes y prevención
         .tabla-a.color-secundario.tabla-a--text-left.mb-5
           table
-            caption Nota. Adaptado de Tornado Amasadora HS20Z: ficha técnica, (2026). 
+            caption Nota. SENA, (2026).
             thead
               tr(style="background-color: #E7F2E7")
                 th Fuentes en panadería
@@ -182,7 +182,7 @@
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/tema3/6.png", alt="" data-aos="zoom-in-down")
       .col-lg-8
-        p A diferencia de otras masas o tipos de alimentos la masa madre cuenta con características especiales. Su pH ácido (3.8-4.5) inhibe Salmonella y Staphylococcus, pero no a Bacillus cereus (forma esporas). Por eso, el control de temperatura durante la fermentación y el enfriamiento del pan horneado son críticos.
+        p A diferencia de otras masas o tipos de alimentos la masa madre cuenta con características especiales. Su pH ácido (3.8-4.5) inhibe <em>Salmonella</em> y <em>Staphylococcus</em>, pero no a <em>Bacillus cereus</em> (forma esporas). Por eso, el control de temperatura durante la fermentación y el enfriamiento del pan horneado son críticos.
         .cajon.color-terciario.p-4
           p.mb-0 Prevención general de contaminación biológica: lavado de manos frecuente, limpieza y desinfección de superficies, control de temperatura (mantener masas refrigeradas si la fermentación supera las 4 horas), cocción completa (temperatura interna del pan >94 °C).
 
@@ -190,7 +190,7 @@
       .row.justify-content-center.align-items-center
         .col-lg-10
           h5 Ejemplo aplicado
-          p.mb-4.mb-lg-0 Durante la preparación de panes con masa madre, un panadero deja una masa fermentando durante toda la noche a temperatura ambiente porque considera que el ambiente ácido elimina cualquier riesgo microbiológico. Sin embargo, las esporas de Bacillus cereus presentes de forma natural en la harina pueden sobrevivir y multiplicarse si las condiciones de tiempo y temperatura son favorables. Para prevenir este riesgo, es necesario controlar los tiempos de fermentación, mantener las masas refrigeradas cuando el proceso supere el tiempo recomendado y garantizar una cocción completa del producto antes de su consumo.
+          p.mb-4.mb-lg-0 Durante la preparación de panes con masa madre, un panadero deja una masa fermentando durante toda la noche a temperatura ambiente porque considera que el ambiente ácido elimina cualquier riesgo microbiológico. Sin embargo, las esporas de <em>Bacillus cereus</em> presentes de forma natural en la harina pueden sobrevivir y multiplicarse si las condiciones de tiempo y temperatura son favorables. Para prevenir este riesgo, es necesario controlar los tiempos de fermentación, mantener las masas refrigeradas cuando el proceso supere el tiempo recomendado y garantizar una cocción completa del producto antes de su consumo.
         .col-8.col-sm-6.col-lg-2
           figure
             img(src="@/assets/curso/tema3/7.png", alt="")
@@ -262,7 +262,7 @@
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
         img.titulo-con-imagen__imagen(src="@/assets/curso/common/title-icon.svg")
-        h3.titulo-con-imagen__texto Separación física de procesos (crudo vs cocido)
+        h3.titulo-con-imagen__texto Separación física de procesos (crudo vs. cocido)
 
     .p-4.py-3.bg-secundario-s5.rounded-4.mb-4
       p.mb-0.text-center En una panadería, se deben distinguir claramente las zonas de trabajo esto evita la contaminación:

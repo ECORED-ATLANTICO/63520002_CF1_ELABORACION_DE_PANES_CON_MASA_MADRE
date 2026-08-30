@@ -8,7 +8,7 @@
     .row.justify-content-center
       .col-lg-12.mb-5
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Este componente formativo sobre Buenas Prácticas de Manufactura (BPM) y procedimientos de limpieza y desinfección en panadería con masa madre proporciona las bases conceptuales, normativas y prácticas para que el aprendiz desarrolle la capacidad de aplicar los principios de inocuidad en la elaboración artesanal de pan. Su recorrido formativo inicia con el marco legal colombiano y el concepto de BPM, se adentra en las prácticas higiénicas del personal y la prevención de la contaminación, y finaliza con el manejo seguro de equipos y utensilios, los agentes de limpieza y desinfección, los POES y los registros, conformando un sistema de conocimiento integral. Su apropiación es el cimiento sobre el cual se construye la producción de panes de masa madre inocuos y de alta calidad, garantizando la protección del consumidor y el cumplimiento de la normativa sanitaria.")
+          img(src="@/assets/curso/sintesis.svg", alt="La figura describe un mapa conceptual sobre las Buenas Prácticas de Manufactura (BPM) y los procedimientos de limpieza y desinfección en panadería. Presenta seis temas principales: generalidades de las BPM; contaminación de los alimentos y prevención; utensilios y superficies de trabajo; agentes de limpieza y desinfección; equipos de panadería; y registros y control del programa de saneamiento. Cada tema incluye conceptos, requisitos, procedimientos, medidas de prevención, tipos de agentes, equipos y registros relacionados.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

@@ -302,7 +302,7 @@ export default {
         {
           id: 9,
           texto:
-            'Para eliminar las esporas de Bacillus cereus presentes en la harina, el pan de masa madre debe alcanzar en su centro una temperatura interna de:',
+            'Para eliminar las esporas de <em>Bacillus cereus</em> presentes en la harina, el pan de masa madre debe alcanzar en su centro una temperatura interna de:',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
@@ -403,7 +403,7 @@ export default {
         {
           id: 12,
           texto:
-            'El botón de parada de emergencia (emergency stop) en la amasadora industrial se utiliza para:',
+            'El botón de parada de emergencia (<em>emergency stop</em>) en la amasadora industrial se utiliza para:',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [

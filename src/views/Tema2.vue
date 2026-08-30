@@ -101,8 +101,6 @@
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.3 Lavado de manos: momentos, técnica correcta y verificación
 
-    p.mb-4.mb-lg-5 El lavado de manos es el paso más importante y efectivo para prevenir la contaminación cruzada. Debe realizarse con agua potable, jabón líquido antiséptico (preferiblemente con dispensador de codo) y secado con toallas de papel desechables. Debe hacerse de manera rutinaria y ante determinada situación, es por eso por lo que existen los llamados momentos obligatorios: 
-
     .bloque-texto-g.color-terciario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require_src('@/assets/curso/tema2/6.png')})`}"
@@ -208,7 +206,7 @@
             
     .row.justify-content-center.align-items-center
       .col-lg-7
-        p La verificación del lavado de manos también es un paso importante, se puede realizar mediante inspección visual ( es decir, donde un supervisor observa la técnica y aprueba el lavado ), también se puede hacer a través de herramientas como la luz ultravioleta con loción marcadora (entrenamiento), o en casos más rigurosos a través de cultivos de hisopado de manos (control microbiológico periódico).
+        p La verificación del lavado de manos también es un paso importante, se puede realizar mediante inspección visual (es decir, donde un supervisor observa la técnica y aprueba el lavado), también se puede hacer a través de herramientas como la luz ultravioleta con loción marcadora (entrenamiento), o en casos más rigurosos a través de cultivos de hisopado de manos (control microbiológico periódico).
         .bg-terciario-t5.p-4.rounded-3.mb-4.mb-lg-0
           p.mb-0 La técnica correcta de lavado de manos constituye una de las principales barreras para prevenir la contaminación de los alimentos. Su aplicación antes y durante la elaboración de panes con masa madre fortalece las Buenas Prácticas de Manufactura (BPM) y contribuye a garantizar productos inocuos y seguros para el consumidor.
       .col-sm-10.col-lg-5
