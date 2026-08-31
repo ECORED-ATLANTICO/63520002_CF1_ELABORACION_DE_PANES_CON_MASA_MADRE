@@ -94,7 +94,7 @@
           span Contaminación química: fuentes y prevención
         .tabla-a.color-secundario.tabla-a--text-left.mb-5
           table
-            caption Nota. Adaptado de Tornado Amasadora HS20Z: ficha técnica, (2026). 
+            caption Nota. SENA, (2026).
             thead
               tr(style="background-color: #E7F2E7")
                 th Fuentes en panadería
