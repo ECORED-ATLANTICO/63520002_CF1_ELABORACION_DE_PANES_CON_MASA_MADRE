@@ -17,19 +17,19 @@
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.1 Requisitos del manipulador, estado de salud y hábitos de higiene
 
-    p.mb-4.mb-lg-5 Un manipulador de alimentos es “toda persona que, por su actividad laboral, tiene contacto directo con los alimentos durante su preparación, elaboración, envasado, almacenamiento, transporte o expendio” (Resolución 2674 de 2013, artículo 3). En la panadería de masa madre, son manipuladores: el panadero que amasa, el ayudante que divide y moldea, el hornero, y cualquier persona que toque el pan terminado sin empaque.
+    p.mb-4.mb-lg-5 Un manipulador de alimentos es “toda persona que, por su actividad laboral, tiene contacto directo con los alimentos durante su preparación, elaboración, envasado, almacenamiento, transporte o expendio” (Resolución 2674 de 2013, artículo 3). En la panadería de masa madre, son manipuladores: el panadero que amasa, el ayudante que divide y moldea, el hornero y cualquier persona que toque el pan terminado sin empaque.
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-lg-8
         .cajon.color-secundario.p-4.mb-3
           p.mb-0 Los requisitos legales del manipulador incluyen: certificado de aptitud laboral (exámenes coprológico y de piel al menos una vez al año), capacitación en manipulación higiénica de alimentos renovada cada 2 años, y conocimiento y aplicación de las BPM específicas de su puesto.
-        p.mb-4.mb-lg-0 Ninguna persona que padezca una enfermedad transmisible o sea portadora de bacterias patógenas debe manipular alimentos. Las condiciones que obligan a excluir al manipulador son: diarrea aguda o crónica, infecciones respiratorias, heridas infectadas, quemaduras, dermatitis, conjuntivitis, o cualquier otra afección que pueda contaminar los alimentos.
+        p.mb-4.mb-lg-0 Ninguna persona que padezca una enfermedad transmisible o sea portadora de bacterias patógenas debe manipular alimentos. Las condiciones que obligan a excluir al manipulador son: diarrea aguda o crónica, infecciones respiratorias, heridas infectadas, quemaduras, dermatitis, conjuntivitis o cualquier otra afección que pueda contaminar los alimentos.
       .col-sm-8.col-lg-4
         figure
           img(data-aos="fade-down-right", src="@/assets/curso/tema2/2.png", alt="")
 
     .p-4.rounded-4.bg-primario-p10
-      p.mb-0 Además el manipulador debe realizar una serie de hábitos diarios obligatorios los cuales son: baño diario completo antes de la jornada, uñas cortas, limpias y sin esmalte, cabello recogido y cubierto totalmente por el gorro, y no usar perfume, colonia o maquillaje en áreas de producción.
+      p.mb-0 Además, el manipulador debe realizar una serie de hábitos diarios obligatorios, los cuales son: baño diario completo antes de la jornada, uñas cortas, limpias y sin esmalte, cabello recogido y cubierto totalmente por el gorro, y no usar perfume, colonia o maquillaje en áreas de producción.
 
     separador
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")

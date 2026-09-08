@@ -73,7 +73,7 @@
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/tema5/7.png", alt="" data-aos="zoom-in-down")
       .col-lg-8
-        p Al igual que con los utensilios, los diferentes equipos usados en la elaboración de panes con masa madre, deben de tener sus respectivas fichas técnicas y están deben describir como mínimo los siguientes puntos: capacidad máxima, potencia, voltaje, frecuencia, dimensiones, materiales en contacto con alimentos, temperaturas de operación, instrucciones de limpieza y desinfección, mantenimiento preventivo (frecuencia, tareas), y certificaciones (CE, NSF).
+        p Al igual que con los utensilios, los diferentes equipos usados en la elaboración de panes con masa madre deben tener sus respectivas fichas técnicas y estás deben describir como mínimo los siguientes puntos: capacidad máxima, potencia, voltaje, frecuencia, dimensiones, materiales en contacto con alimentos, temperaturas de operación, instrucciones de limpieza y desinfección, mantenimiento preventivo (frecuencia, tareas) y certificaciones (CE, NSF).
         .p-4.py-3.bg-secundario-s5.rounded-3
           p.mb-0 Se presentan, a continuación, dos tablas con ejemplos de fichas técnicas de equipos utilizados en la elaboración de panes con masa madre.
 
@@ -308,7 +308,7 @@
             img.imgw-80(src='@/assets/curso/tema5/11.png', alt='')
         .col-lg-9
           h3 Encendido y selección del modo de ventilación
-          p Coloque el interruptor general en posición ON. El ventilador comenzará a funcionar. Luego, seleccione el modo requerido:
+          p Coloque el interruptor general en posición <em>ON</em>. El ventilador comenzará a funcionar. Luego, seleccione el modo requerido:
           p.mb-0 #[strong #[em COOK]]: el ventilador se detiene cuando se abren las puertas.
           p #[strong #[em COOL]]: el ventilador permanece en funcionamiento y facilita el enfriamiento.
           p.mb-0 #[strong Recomendación de seguridad]: seleccione el modo antes de introducir el producto y evite acercar las manos al ventilador.
@@ -337,7 +337,7 @@
       .row.justify-content-center.align-items-center
         .col-lg-9.mb-4.mb-lg-0
           h3 Apagado, desconexión y limpieza
-          p Al finalizar la cocción, gire el termostato hasta 0 y espere a que el piloto naranja se apague. Después, coloque el interruptor general en OFF, cierre la válvula de gas y desconecte el horno de la corriente eléctrica antes de limpiarlo.
+          p Al finalizar la cocción, gire el termostato hasta 0 y espere a que el piloto naranja se apague. Después, coloque el interruptor general en <em>OFF</em>, cierre la válvula de gas y desconecte el horno de la corriente eléctrica antes de limpiarlo.
           p Limpie diariamente la cámara de cocción con una espátula plástica o un paño húmedo, de acuerdo con las indicaciones del fabricante. Para el exterior, utilice únicamente un paño húmedo.
           p.mb-0 #[strong No utilice]: chorros de agua, elementos abrasivos, productos ácidos ni soda cáustica.
         .col-sm-4.col-lg-2

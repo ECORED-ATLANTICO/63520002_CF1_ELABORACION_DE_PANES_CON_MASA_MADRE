@@ -21,7 +21,7 @@
       .col-lg-8
         p La contaminación de los alimentos es la presencia en ellos de cualquier agente físico, químico o biológico que pueda provocar un riesgo para la salud del consumidor o una alteración de la calidad del producto. Puede ocurrir en cualquier etapa: desde la materia prima (harina con esporas de <em>Bacillus cereus</em>), durante el procesamiento (manos sucias), o después del horneado (moho por almacenamiento húmedo).
         .cajon.color-terciario.p-4.mb-4.mb-lg-0
-          p.mb-0 Existen variedades de tipos de contaminaciones, estas pueden en peligro la salud, tanto de los trabajadores como de los consumidores, es en medida que las BPM, deben aplicarse para un riguroso proceso dentro de las instalaciones, lo que ayuda a la prevención de este tipo de contaminaciones.
+          p.mb-0 Existen variedades de tipos de contaminaciones; estas pueden poner en peligro la salud, tanto de los trabajadores como de los consumidores. En esta medida, se deben aplicar las BPM para lograr un riguroso proceso dentro de las instalaciones y así contribuir a la prevención de este tipo de contaminaciones.
       .col-sm-8.col-lg-4
         figure
           img(data-aos="fade-down-right", src="@/assets/curso/tema3/2.png", alt="")

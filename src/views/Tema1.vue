@@ -62,7 +62,7 @@
       .col-lg-7
         p La inocuidad no es lo mismo que calidad nutricional o sensorial. Un pan puede ser delicioso, con buena corteza y miga, pero no ser inocuo si contiene patógenos como <em>Bacillus cereus</em> o toxinas. La masa madre, debido a su pH ácido (generalmente entre 3.8 y 4.5), inhibe muchos microorganismos patógenos, pero no todos. Por ejemplo, <em>Bacillus cereus</em> forma esporas resistentes al calor y al ácido, y puede sobrevivir en harinas y masas mal refrigeradas. Por ello, las BPM son irremplazables: el control de temperaturas, la limpieza de superficies y la higiene personal son barreras adicionales que garantizan la inocuidad incluso cuando el pH no es lo suficientemente bajo.
         .bg-terciario-t5.p-4.rounded-3.mb-4.mb-lg-0
-          p.mb-0 Un ejemplo concreto: una masa madre activa con pH 4.0 es segura para la mayoría de bacterias patógenas, pero si el panadero no se lava las manos después de ir al baño y contamina la masa con Escherichia coli, esta bacteria puede sobrevivir en el ambiente ácido el tiempo suficiente para llegar al consumidor si el pan no se hornea a temperatura interna adecuada. Las BPM evitan este riesgo desde el origen.
+          p.mb-0 Un ejemplo concreto: una masa madre activa con pH 4.0 es segura para la mayoría de bacterias patógenas, pero si el panadero no se lava las manos después de ir al baño y contamina la masa con <em>Escherichia coli</em>, esta bacteria puede sobrevivir en el ambiente ácido el tiempo suficiente para llegar al consumidor si el pan no se hornea a temperatura interna adecuada. Las BPM evitan este riesgo desde el origen.
       .col-sm-10.col-lg-5
         figure
           img(data-aos="fade-down-right", src="@/assets/curso/tema1/4.png", alt="")
